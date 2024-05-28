@@ -6,6 +6,6 @@ import vue from "@astrojs/vue";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://scrolla-web.github.io',
+  site: 'https://kuchienkz.github.io',
   integrations: [mdx(), sitemap(), vue()]
 });
