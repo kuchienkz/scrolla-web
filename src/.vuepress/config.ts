@@ -9,12 +9,12 @@ export default defineUserConfig({
       lang: "en-US",
       title: "Scrolla Wallpaper",
       description: "A Blog for Scrolla Wallpaper guides",
-    },
-    "/zh/": {
-      lang: "zh-CN",
-      title: "博客演示",
-      description: "vuepress-theme-hope 的博客演示",
-    },
+    }
+    // "/zh/": {
+    //   lang: "zh-CN",
+    //   title: "博客演示",
+    //   description: "vuepress-theme-hope 的博客演示",
+    // },
   },
 
   theme,
