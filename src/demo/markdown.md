@@ -133,7 +133,7 @@ Support setting color scheme and size.
 #### Component
 
 ```component VPCard
-title: Mr.Hope
+title: Kuchienkz
 desc: Where there is light, there is hope
 logo: https://mister-hope.com/logo.svg
 link: https://mister-hope.com
@@ -223,7 +223,7 @@ VuePress Theme Hope is !!powerful!!.
 
 #### Stylize
 
-Donate Mr.Hope a cup of coffee. _Recommended_
+Donate Kuchienkz a cup of coffee. _Recommended_
 
 - [View Detail](https://theme-hope.vuejs.press/guide/markdown/stylize/stylize.html)
 

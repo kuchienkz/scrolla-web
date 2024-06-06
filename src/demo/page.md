@@ -6,7 +6,7 @@ icon: file
 # This control sidebar order
 order: 3
 # Set author
-author: Ms.Hope
+author: Kuchienkz
 # Set writing time
 date: 2020-01-01
 # A page can have multiple categories
@@ -46,7 +46,7 @@ title: Page Title
 
 You can set page information in Markdown's Frontmatter.
 
-- The author is Ms.Hope.
+- The author is Kuchienkz.
 - The writing date is January 1, 2020
 - Category is "Guide"
 - Tags are "Page Config" and "Guide"
@@ -113,7 +113,7 @@ The theme contains some useful components. Here are some examples:
 - A card:
 
   ```component VPCard
-  title: Mr.Hope
+  title: Kuchienkz
   desc: Where there is light, there is hope
   logo: https://mister-hope.com/logo.svg
   link: https://mister-hope.com
