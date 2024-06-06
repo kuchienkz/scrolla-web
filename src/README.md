@@ -21,7 +21,7 @@ projects:
   - icon: article
     name: First-time User?
     desc: Click here!
-    link: landing
+    link: guides/quick-start
 
   - icon: book
     name: Guides
