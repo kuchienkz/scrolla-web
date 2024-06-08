@@ -17,8 +17,6 @@ In order to use Scrolla Wallpaper, basically you have to:
 2.  Make a Playlist
 3.  Set it as Live Wallpaper
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
-
 ## Creating Wallpaper Resources
 
 When you import an image file into the app, it became a **Wallpaper Resource**. Basically, wallpaper resource is a entity that contains not just your wallpaper image, but also it's configuration. For simplicity, we will simply call it **Wallpaper** onward.
