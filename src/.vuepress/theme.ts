@@ -30,12 +30,12 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "Default footer",
+      footer: "Scrolla Wallpaper",
 
       displayFooter: true,
 
       blog: {
-        description: "A FrontEnd programmer",
+        description: "Scrolla Wallpaper Guides",
         intro: "/intro.html",
       },
 

@@ -1,14 +1,3 @@
-{
-  "compilerOptions": {
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "target": "ES2022"
-  },
-  "include": [
-    "src/.vuepress/**/*.ts",
-    "src/.vuepress/**/*.vue"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:95d6b462297e438151f3b6ae25f459ea2d85b33522f827876a7f65f7d9709f72
+size 233
