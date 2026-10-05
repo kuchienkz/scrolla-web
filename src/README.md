@@ -1,6 +1,6 @@
 ---
 home: true
-layout: BlogHome
+layout: Blog
 icon: home
 title: Blog Home
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
@@ -26,7 +26,7 @@ projects:
   - icon: book
     name: Guides
     desc: Don't lose your way!
-    link: http://localhost:8080/scrolla-web/intro.html
+    link: guides/
 
 footer: Scrolla Wallpaper Blog
 ---

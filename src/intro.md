@@ -5,36 +5,42 @@ cover: /assets/images/cover3.jpg
 
 # About
 
-**Say goodbye to cropping Wallpaper~**
+**Say goodbye to cropping wallpapers!**
 
-Why crop it if you can SCROLL it? Scrolla Wallpaper work as Live Wallpaper by scrolling any static image, with any size, within the screen with adjustable scroll mode and speed.
+Why crop a wallpaper if you can SCROLL it? Scrolla Wallpaper is a live wallpaper app. It slowly scrolls across any image, of any size, so the full picture stays visible. You control the direction, speed and animation.
 
-Scrolla Wallpaper also provide the following features to help you manage wallpapers easily.
+New here? Start with the [Quick Start](guides/quick-start.md).
 
-**PLAYLIST**
+## Features
 
-"Play" wallpapers with Playlist. Think of it just like a music player's playlist, but wallpapers!
+**SMOOTH SCROLLING AND ANIMATIONS**
 
-**TASK**
+Scroll images in any direction. Add enter and exit animations such as fade, slide and bounce. Use automatic rules to give wide, tall or video wallpapers their own animations. [Learn more](guides/animations.md)
 
-Import new wallpapers, change wallpaper, switch to certain Playlist(s), or even start/stop another Task. These can be done automatically based on states such as date-time, location, and current Wifi's name.
+**IMAGES, VIDEOS AND 360° PANORAMAS**
 
-**WALLPAPERS MANAGEMENT**
+Use images, animated GIFs, videos and 3D panoramas with gyroscope and touch control. [Learn more](guides/wallpaper-settings.md)
 
-Import, export, assign Tags, and optimization.
+**PLAYLISTS**
 
-**PREFERENCES**
+"Play" wallpapers with playlists, like a music player's playlist. Shuffle them, change them every few minutes, or change them when you unlock your phone. Dynamic Playlists fill themselves from your tags. [Learn more](guides/playlists.md)
 
-Adjust scroll speed, anti-aliasing, switch interval, and many more!
+**HOME AND LOCK SCREEN PROFILES**
 
-**⚠️ WARNING ⚠️**
+Use a different setup on your home screen and your lock screen. [Learn more](guides/profiles.md)
 
-This app is on beta stage of development, one or more bug is expected. Help make it stable as soon as possible by reporting any bug found to the developer. You can send the report by email, the report should include the following:
+**TASKS**
 
-**👉 Steps to reproduce the error/bug**
+Change wallpapers or switch playlists automatically, based on time, day, Wi-Fi network, battery and more. [Learn more](guides/tasks.md)
 
-This is the most important. In order to fix the error/bug faster, the developer must experience the error/bug itself. If somehow you can not reproduce the error/bug, please tell the usage of app, anything you remember when the error/bug happened.
+**WALLPAPER MANAGEMENT**
 
-**👉 System Info**
+Import with tags from metadata files, find duplicates, search and filter by tags. [Learn more](guides/managing-wallpapers.md)
 
-This includes phone model (mandatory), Android version (mandatory), and available ram (optional). Also, if you using 3rd party launcher or custom ROM, make sure to tell about it.
+**GOOGLE DRIVE AND BACKUP**
+
+Keep big collections in your Google Drive and use them on all your devices. Back up your setup to the cloud or to a ZIP file. [Learn more](guides/cloud-storage.md)
+
+## ⚠️ Beta warning
+
+This app is still in development. Bugs can happen. Please help make it stable by reporting any bug you find to the developer by email. See [how to report a bug](guides/troubleshooting.md#report-a-bug).
