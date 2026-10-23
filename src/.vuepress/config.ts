@@ -14,12 +14,10 @@ export default defineUserConfig({
     },
   },
 
-  // demo/ and zh/ are leftovers from the theme starter template.
-  pagePatterns: ["**/*.md", "!demo/**", "!zh/**", "!.vuepress", "!node_modules"],
-
   head: [
     // Matches the Beta banner at the top of the page.
     ["meta", { name: "theme-color", content: "#ffd60a" }],
+    ["link", { rel: "icon", href: "/scrolla-web/favicon.ico" }],
     ["link", { rel: "apple-touch-icon", href: "/scrolla-web/logo.png" }],
   ],
 
