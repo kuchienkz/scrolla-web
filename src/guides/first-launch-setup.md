@@ -84,7 +84,19 @@ Read each document, then tap **Accept & Continue**:
 
 1. Terms and Conditions
 2. Privacy Policy
-3. Background Location Access (Usage Statement & Rationale). This explains why the app can read your Wi-Fi name in the background.
+3. Privacy Choices (see below)
+4. Background Location Access (Usage Statement & Rationale). This explains why the app can read your Wi-Fi name in the background.
+
+### Privacy Choices {#privacy-choices}
+
+Right after the Privacy Policy, choose what the app may send:
+
+- **Non-personalized Ads**: ads are not based on your interests. Ads still show.
+- **Telemetry**: **Default**, **Minimal** or **Off**. **Default** is selected. **Off** sends nothing to the developer and turns on Non-personalized Ads.
+
+See [Telemetry levels](settings.md#telemetry) for what each level sends. You can change both later in **Settings** > **Privacy & Permissions**.
+
+If you restore a backup, the choices you make here are kept.
 
 ## 5. Review Configurations
 
@@ -93,6 +105,7 @@ This step shows a summary of your choices:
 - Working Directory Path
 - Backup File to Restore (if you selected one)
 - Location Access, Alarms & Reminders and Microphone (Audio Visualizer) status
+- Privacy Choices: your telemetry level and Non-personalized Ads. Tap it to change them.
 - Legal statements that you accepted
 
 If something is wrong, tap **Back** and change it.

@@ -122,7 +122,30 @@ Only for signed-in users. **Maximize Compatibility (experimental)** changes how 
 | Item | What it does |
 |---|---|
 | **Ad Privacy Options** | Change your ad consent choices. Shown only where the law asks for it. |
+| **Non-personalized Ads** | Ads are not based on your interests. Ads still show. Always on, and locked, while **Telemetry** is **Off**. |
+| **Telemetry** | What the app sends to the developer when something goes wrong: **Default**, **Minimal** or **Off**. See [Telemetry levels](#telemetry). |
 | **Permissions Manager** | Allow or check **Alarms & Reminders**, **Location Access (Precise)** and **Microphone Access**. See [First Launch Setup](first-launch-setup.md#permissions). |
+
+### Telemetry levels {#telemetry}
+
+Telemetry means crash and error reports. They help the developer find and fix bugs. **Default** is on until you change it.
+
+| | Default | Minimal | Off |
+|---|---|---|---|
+| Crashes and errors, with the place in the code | ✓ | ✓ | – |
+| Device model, Android version, app version | ✓ | ✓ | – |
+| Recent app events before an error (screen changes, wallpaper engine log lines) | ✓ | ✓ | – |
+| Taps before an error | ✓ | – | – |
+| IP address | ✓ | – | – |
+| Screenshot and screen layout at the error | ✓ | – | – |
+| Screen replay (some sessions, and sessions with an error) | ✓ | – | – |
+| Performance data, app logs, session counts | ✓ | – | – |
+| Non-personalized Ads | Your choice | Your choice | Always on |
+
+Your wallpapers, playlists, tags and settings are never sent.
+
+- A **lower** level applies at once.
+- A **higher** level applies after you restart the app. The app tells you so.
 
 ## Advanced
 

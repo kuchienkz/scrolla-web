@@ -20,4 +20,5 @@ The 3.0 Beta is available on Google Play to Beta testers. Some users may not hav
 - **Cloud wallpapers** bring their settings and scene, and you can keep your own version on one device.
 - **Backups** now include subscribed cloud wallpapers (as links), scenes, themes and Custom Repositories, with backup options and a warning for drives that are not connected.
 - Smoother drag, pinch and panorama movement on the live wallpaper.
+- **Privacy choices**: a **Telemetry** setting (**Default**, **Minimal** or **Off**) and a **Non-personalized Ads** switch, in the first-launch setup and in **Settings** > **Privacy & Permissions**. See [Telemetry levels](guides/settings.md#telemetry).
 - Settings are now grouped into pages: **Playback**, **Cloud & Storage**, **Performance**, **Appearance & Content**, **Privacy & Permissions** and **Advanced**. See [Settings Reference](guides/settings.md).

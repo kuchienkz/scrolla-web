@@ -26,8 +26,8 @@ Contact: **wahyupamengas.developer@gmail.com**
 - The App is built to work **offline, on your own device**. Your wallpapers, playlists, tags, tasks, scenes and settings stay on your device. I never receive them.
 - I **do not sell** your information, and I do not use it to build advertising profiles.
 - Some information leaves your device only in these cases:
-  1. **Crash and error reports**, so I can fix bugs (Sentry).
-  2. **Advertising**, shown by Google AdMob, with your consent where the law requires it.
+  1. **Crash and error reports**, so I can fix bugs (Sentry). You can send less, or nothing, with the **Telemetry** setting.
+  2. **Advertising**, shown by Google AdMob, with your consent where the law requires it. You can ask for non-personalized ads.
   3. **An optional account**, if you choose to sign in with Google.
   4. **Services you connect yourself**: your Google Drive, and any Custom Repository website you add.
 - You can use the App without an account.
@@ -49,12 +49,20 @@ I cannot see, access or recover any of this. If you uninstall the App, Android m
 
 ### 1. Crash and error reports (Sentry)
 
-When the App crashes or hits an error, it sends a report to **Sentry**, a service that I use to find and fix bugs. A report can include:
+When the App crashes or hits an error, it can send a report to **Sentry**, a service that I use to find and fix bugs. You choose how much it sends with the **Telemetry** setting, in the first-launch setup and in **Settings** > **Privacy & Permissions** > **Telemetry**:
 
-- technical details: device model, Android version, App version, memory and performance data, error messages and logs,
-- your IP address,
-- a screenshot and a description of the App screen at the moment of the error, and, for some sessions, a replay of recent App screens. Text and images in replays are masked by default, but a screenshot can show what was on the App screen, which may include your wallpapers,
-- the steps you took in the App before the error (for example which buttons you tapped).
+| | Default | Minimal | Off |
+|---|---|---|---|
+| Error messages and where in the code they happened | Yes | Yes | No |
+| Device model, Android version, App version | Yes | Yes | No |
+| Recent App events before an error (screen names, wallpaper engine log lines) | Yes | Yes | No |
+| The buttons you tapped before an error | Yes | No | No |
+| Your IP address | Yes | No | No |
+| A screenshot and a description of the App screen at the error | Yes | No | No |
+| A replay of recent App screens (some sessions, and sessions with an error) | Yes | No | No |
+| Performance data, App logs, session counts | Yes | No | No |
+
+**Default** is on until you change it. With **Off**, the App sends nothing to Sentry. Text and images in replays are masked by default, but a screenshot can show what was on the App screen, which may include your wallpapers. With **Minimal**, the App does not attach your IP address to reports.
 
 I use these reports **only** to fix problems and improve stability. They are kept for a limited time and are deleted automatically by Sentry's retention rules. See [Sentry's Privacy Policy](https://sentry.io/privacy/).
 
@@ -63,6 +71,7 @@ I use these reports **only** to fix problems and improve stability. They are kep
 The free App shows ads from **Google AdMob**. To show and measure ads, and to prevent fraud, Google may collect your device's advertising ID, IP address, approximate location derived from the IP address, device information, and how you interact with ads.
 
 - Where the law requires it (for example in the European Economic Area, the United Kingdom and Switzerland), the App asks for your **consent** before ads are personalized, using Google's consent tool. You can change your choice at any time in **Settings** > **Privacy & Permissions** > **Ad Privacy Options**.
+- Turn on **Non-personalized Ads** in **Settings** > **Privacy & Permissions** to ask for ads that are not based on your interests. Ads still show, and Google still receives the information it needs to serve them and to prevent fraud. With **Telemetry** set to **Off**, Non-personalized Ads is always on.
 - You can reset or delete your advertising ID in your Android settings.
 - Ads are never shown inside the live wallpaper itself.
 
@@ -112,7 +121,7 @@ If the EU or UK General Data Protection Regulation (GDPR) applies to you, I rely
 
 - **your consent** for personalized ads, and for the microphone and location permissions;
 - **performing our agreement** (the Terms) to run your optional account and your purchases;
-- **my legitimate interest** in keeping the App working and secure, for crash and error reports.
+- **my legitimate interest** in keeping the App working and secure, for crash and error reports. You can object at any time by setting **Telemetry** to **Off**.
 
 I am based in Indonesia, so I also follow Indonesia's **Personal Data Protection Law** (Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi, "UU PDP"). It allows the same bases: consent, performing an agreement, and legitimate interest. Under the UU PDP you can, among other things, get information about and access to your data, correct it, ask me to delete it, withdraw your consent, and object to or limit its processing. To use these rights, see [Your choices and rights](#your-choices-and-rights). If a data breach affects your information, I will tell you as the UU PDP requires.
 
@@ -128,14 +137,15 @@ These providers may process information in countries other than yours, including
 ## How long information is kept
 
 - Information on your device: until you delete it or uninstall the App.
-- Crash and error reports: for a limited time, then deleted automatically by Sentry.
+- Crash and error reports: for a limited time, then deleted automatically by Sentry. Reports sent before you chose **Off** stay until then; to have them deleted sooner, contact me.
 - Account profile and purchase records: while your account exists. When you ask me to delete your account, I delete the profile within 30 days. Purchase records may be kept longer where tax or accounting law requires it.
 - Advertising data: as described in Google's policies.
 
 ## Your choices and rights
 
 - **Use the App without an account.** Most features work without signing in.
-- **Control ads.** Change your consent in **Ad Privacy Options**, or reset your advertising ID in Android settings.
+- **Control crash reports.** Set **Telemetry** to **Minimal** or **Off** in **Settings** > **Privacy & Permissions**.
+- **Control ads.** Turn on **Non-personalized Ads**, change your consent in **Ad Privacy Options**, or reset your advertising ID in Android settings.
 - **Control permissions** in Android settings at any time.
 - **Remove Google Drive access** in your Google Account settings.
 - **Access, correct or delete your data.** Email **wahyupamengas.developer@gmail.com** from the address of your account, with the subject "Data request". I will answer within 30 days. To delete your account, write "Delete my account".
