@@ -28,7 +28,7 @@ Your default is a slow scroll. One very tall artwork scrolls too slowly. Give on
 :::
 
 ::: info Cloud wallpapers
-You cannot change the settings of a subscribed cloud wallpaper in the wallpaper editor. Use **Configure (Override)** in the library, or **Override Config** in a playlist. The original settings on the cloud stay the same.
+A cloud wallpaper comes with settings from the cloud. When you change them on step 2, your settings stay on this device until you upload them. See [Change a cloud wallpaper's settings or scene](cloud-storage.md#change-cloud-wallpapers).
 :::
 
 ::: details 🖼️ Screenshot placeholder: `wallpaper-settings/01-wallpaper-settings-section.png`

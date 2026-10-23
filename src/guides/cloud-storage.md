@@ -26,6 +26,7 @@ Connect your Google Drive to:
 | **Subscribe** | Download a cloud wallpaper and **keep** it on your device, so it works offline. |
 | **Cached** | A cloud wallpaper or thumbnail that is stored on your device **temporarily**. The app can delete it to free space. |
 | **Ephemeral** | A temporary cloud wallpaper that a [Dynamic Playlist](dynamic-playlists.md) downloaded. |
+| **Device override** | Your own settings or scene for a cloud wallpaper. It stays on this device until you upload it. |
 
 ## Connect Google Drive
 
@@ -76,6 +77,47 @@ A progress sheet shows the upload. When it finishes, a **Migration Report** show
 You can also add cloud wallpapers directly to a playlist. The app subscribes them for you.
 
 On **Prepare Subscription**, the **Tag Syncing** option **Overwrite existing local tags** replaces your local tags with the tags from the cloud.
+
+## Change a cloud wallpaper's settings or scene {#change-cloud-wallpapers}
+
+A cloud wallpaper brings its own [wallpaper settings](wallpaper-settings.md) and its own wallpaper scene (for example a clock that comes with the wallpaper). Every device that downloads the wallpaper starts with this **cloud version**.
+
+You can change both on your device. In the library, select the wallpaper and tap **Configure (Override)** to open the wallpaper editor. Then:
+
+- **Settings**: turn on **Override Default Configuration**.
+- **Scene**: tap **Wallpaper scene**.
+
+Your changes are a **device override**. They apply **only on this device**. The cloud copy and your other devices keep the cloud version.
+
+### Keep or drop your changes
+
+When a cloud wallpaper has a device override, you can:
+
+| Action | Where | Result |
+|---|---|---|
+| **Reset to cloud** | Wallpaper editor, below **Override Default Configuration** | Removes your settings. The cloud settings apply again. |
+| **Update cloud config** | Wallpaper editor, below **Override Default Configuration** | Uploads your settings. They replace the cloud settings. |
+| **Reset to cloud scene** | Scene editor, **⋮** menu | Removes your scene. The cloud scene shows again. |
+| **Update cloud scene** | Scene editor, **⋮** menu. Save the scene first. | Uploads your scene. It replaces the cloud scene. |
+
+After an update, your device uses the new cloud version, with no override left.
+
+::: info Other devices
+Other devices get the new cloud version the next time they download the wallpaper, or when you tap **Refresh from Cloud**. A device that has its own override keeps showing that override.
+:::
+
+::: warning Read-only drives
+**Update cloud config** and **Update cloud scene** need a drive you can write to. On a read-only drive the update fails, and your changes stay on this device.
+:::
+
+### Changes inside a playlist
+
+**Override Config** and **Override Scene** in a playlist change the wallpaper only in that playlist (see [Where settings apply](wallpaper-settings.md#where-settings-apply)). These changes stay on this device, and there is nothing to upload. They also work for ephemeral wallpapers in a Dynamic Playlist: they come back when the playlist downloads the same wallpaper again.
+
+### Backups
+
+- **Device overrides are not in backups.** To keep them, use **Update cloud config** or **Update cloud scene**. The cloud version is restored with the wallpaper.
+- **Changes inside a playlist are in backups**, including those of Dynamic Playlists.
 
 ## Manage a connected drive
 
