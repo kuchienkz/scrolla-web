@@ -80,16 +80,5 @@ const features = [
         </RouteLink>
       </div>
     </section>
-
-    <section class="sh-cta">
-      <h2 class="sh-h2">Help make the Beta stable</h2>
-      <p>
-        The app is still in development and bugs can happen. Found one? Tell
-        the developer by email.
-      </p>
-      <RouteLink class="sh-btn sh-btn-dark" to="/guides/troubleshooting.html#report-a-bug">
-        <VPIcon icon="bug" />How to report a bug
-      </RouteLink>
-    </section>
   </div>
 </template>

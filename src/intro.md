@@ -55,4 +55,4 @@ Keep big collections in your Google Drive and use them on all your devices. Sear
 
 ## ⚠️ Beta warning
 
-This guide describes the **Beta release** on Google Play. Some users may not have access to it yet. The app is still in development, and bugs can happen. Please help make it stable by reporting any bug you find to the developer by email. See [how to report a bug](guides/troubleshooting.md#report-a-bug).
+This guide describes the **Beta release** on Google Play. Some users may not have access to it yet. The app is still in development, and bugs can happen.

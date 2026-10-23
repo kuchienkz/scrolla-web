@@ -280,8 +280,7 @@ body {
 
 .sh-hero,
 .sh-shortcuts,
-.sh-section,
-.sh-cta {
+.sh-section {
   box-sizing: border-box;
   max-width: var(--home-page-width);
   margin-inline: auto;
@@ -455,15 +454,6 @@ body {
   }
 }
 
-.sh-btn-dark {
-  background: var(--sh-ink);
-  color: var(--sh-yellow) !important;
-
-  &:hover {
-    background: #2a2a30;
-  }
-}
-
 // Phone mockup: the wallpaper pans sideways, like the app does.
 .sh-phone {
   justify-self: center;
@@ -618,6 +608,7 @@ body {
 // Features
 .sh-section {
   padding-top: 3rem;
+  padding-bottom: 3.5rem;
 }
 
 .sh .sh-h2 {
@@ -678,28 +669,5 @@ body {
 
   @media (min-width: 720px) {
     display: none;
-  }
-}
-
-// Call to action
-.sh-cta {
-  width: calc(100% - var(--sh-gutter) * 2);
-  max-width: calc(var(--home-page-width) - var(--sh-gutter) * 2);
-  margin-block: 3rem;
-  padding: 2rem 1.25rem;
-  border-radius: 1.5rem;
-  background: var(--sh-yellow);
-  color: var(--sh-ink);
-  text-align: center;
-
-  @media (min-width: 720px) {
-    padding: 2.75rem 2rem;
-  }
-
-  p {
-    max-width: 30rem;
-    margin: 0.6rem auto 1.4rem;
-    line-height: 1.55;
-    opacity: 0.85;
   }
 }
