@@ -1,5 +1,55 @@
-// you can change colors here
-$theme-color: #096dd9;
+// Brand: the yellow and ink of the Scrolla app icon (public/logo.png).
+$theme-color: #ffd60a;
+
+// Links and accent text need contrast on the page background, so light mode
+// uses a deep amber. Filled accents (buttons, markers) stay brand yellow in
+// both modes, with dark text on top.
+$vp-c-accent: (
+  light: #8a5a00,
+  dark: #ffd60a,
+);
+$vp-c-accent-hover: (
+  light: #6b4500,
+  dark: #ffe45c,
+);
+$vp-c-accent-bg: (
+  light: #ffd60a,
+  dark: #ffd60a,
+);
+$vp-c-accent-soft: (
+  light: rgb(255 214 10 / 22%),
+  dark: rgb(255 214 10 / 14%),
+);
+$vp-c-accent-text: #141416;
+
+$vp-c-bg: (
+  light: #fff,
+  dark: #141416,
+);
+$vp-c-bg-alt: (
+  light: #f7f6f2,
+  dark: #0e0e10,
+);
+$vp-c-bg-elv: (
+  light: #fff,
+  dark: #1d1d21,
+);
+$vp-c-text: (
+  light: #1f1f24,
+  dark: rgb(240 240 245 / 88%),
+);
+$vp-c-divider: (
+  light: #ebe9e2,
+  dark: #2a2a30,
+);
+$vp-c-border: (
+  light: #d9d6cc,
+  dark: #36363d,
+);
+
+// Mobile first: a roomier content column and a slightly wider home page.
+$content-width: 760px;
+$home-page-width: 1120px;
 
 // The navbar heights include the Beta banner above the navbar (see index.scss),
 // so every offset the theme derives from them leaves room for it.
