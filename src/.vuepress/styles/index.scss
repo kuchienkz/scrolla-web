@@ -1,1 +1,96 @@
 // place your custom styles here
+
+// Beta banner (components/BetaBanner.vue): fixed at the top of every page.
+// Its height is part of $navbar-height / $navbar-mobile-height (palette.scss);
+// the navbar sits below it and keeps its own height.
+:root {
+  --beta-banner-height: 2.25rem;
+  --beta-banner-bg: #fff3cd;
+  --beta-banner-text: #5c4300;
+  --beta-banner-badge-bg: #8a6100;
+  --beta-banner-badge-text: #fff;
+}
+
+html[data-theme="dark"] {
+  --beta-banner-bg: #3a2e05;
+  --beta-banner-text: #ffe8a3;
+  --beta-banner-badge-bg: #ffd666;
+  --beta-banner-badge-text: #2b2100;
+}
+
+@media (max-width: 959px) {
+  :root {
+    --beta-banner-height: 3rem;
+  }
+}
+
+.beta-banner {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 180; // Above the navbar (175).
+
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  height: var(--beta-banner-height);
+  padding: 0 1rem;
+
+  background: var(--beta-banner-bg);
+  color: var(--beta-banner-text);
+  border-bottom: 1px solid rgb(0 0 0 / 10%);
+
+  font-size: 0.875rem;
+  line-height: 1.3;
+
+  @media (max-width: 959px) {
+    font-size: 0.8rem;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.beta-banner-badge {
+  flex: none;
+  padding: 0.1rem 0.45rem;
+  border-radius: 0.3rem;
+
+  background: var(--beta-banner-badge-bg);
+  color: var(--beta-banner-badge-text);
+
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.beta-banner-text {
+  margin: 0;
+}
+
+.beta-banner-short {
+  display: none;
+}
+
+@media (max-width: 719px) {
+  .beta-banner-long {
+    display: none;
+  }
+
+  .beta-banner-short {
+    display: inline;
+  }
+}
+
+#app .vp-navbar {
+  --navbar-line-height: calc(
+    var(--navbar-height) - var(--beta-banner-height) -
+      var(--navbar-padding-y) * 2
+  );
+
+  top: var(--beta-banner-height);
+  height: calc(var(--navbar-height) - var(--beta-banner-height));
+}

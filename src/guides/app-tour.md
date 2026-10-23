@@ -1,7 +1,7 @@
 ---
 icon: compass
 order: 3
-date: 2026-10-05
+date: 2026-10-23
 category:
   - Guides
 tag:
@@ -22,7 +22,7 @@ The bottom bar has five buttons:
 | **Playlists** | Your playlists. Turn playlists on and off, and start the live wallpaper. |
 | **Tasks** | Automation rules that change wallpapers or playlists for you. |
 | **Resources** | Your wallpaper library and your tags. Import new wallpapers here. |
-| **Settings** | Wallpaper service controls, default settings, performance, cloud and backup. |
+| **Settings** | The **Preferences** page: wallpaper service controls, playback defaults, scenes, cloud and backup, themes and more. |
 | **Profile** | Opens the profile panel from the right side. Select which Home Screen or Lock Screen profile you are editing. |
 
 ::: details 🖼️ Screenshot placeholder: `app-tour/01-bottom-bar.png`
@@ -66,7 +66,18 @@ The Resource Manager with the WALLPAPERS card, TAGS card and Latest Wallpapers s
 
 ## Settings tab
 
-Settings are grouped into sections: **Engine Control**, **System & Integration**, **Playback Behavior**, **Performance & Caching**, **Appearance**, **Content Preferences** and **Advanced**.
+The Settings tab opens **Preferences**. At the top, **Engine Control** shows whether the live wallpaper runs, with **Set Wallpaper**, **Stop** and **Restart Engine**. Below it, the settings are grouped into pages:
+
+| Page | What you find there |
+|---|---|
+| **Playback** | Playlist defaults, default wallpaper settings, the [Scene](scenes.md), loading and fallback wallpapers, frame rate, preloading. |
+| **Cloud & Storage** | Cloud drives, [Custom Repositories](custom-repositories.md), backup, transfers, cache. |
+| **Performance** | Thumbnails, background processing. |
+| **Appearance & Content** | [Theme](themes.md), [Home Screen Widget](home-screen-widget.md), NSFW content. |
+| **Privacy & Permissions** | Permissions, ad privacy options. |
+| **Advanced** | Engine logs, debug info, database export, restore defaults. |
+
+The **App Version** is at the bottom of the page.
 
 More: [Settings Reference](settings.md).
 
@@ -90,4 +101,5 @@ More: [Profiles](profiles.md), [Cloud Storage](cloud-storage.md#transfer-history
 | **Active playlist** | A playlist that is turned on. The live wallpaper plays wallpapers from active playlists. |
 | **Profile** | A separate set of playlists, tasks and folders for the Home Screen or the Lock Screen. |
 | **Task** | An automation rule: "when this happens, and these conditions are true, do this". |
+| **Scene** | Extra things on the wallpaper, such as a clock, an audio visualizer or shapes. See [Scenes](scenes.md). |
 | **Wallpaper service** / **Engine** | The part of the app that draws the live wallpaper on your screen. |

@@ -1,7 +1,7 @@
 ---
 icon: clock
-order: 12
-date: 2026-10-05
+order: 13
+date: 2026-10-23
 category:
   - Guides
 tag:
@@ -22,7 +22,7 @@ A task changes your wallpaper setup automatically. Each task has three parts:
 :::
 
 ::: warning Permissions
-For exact times, allow **Alarms & Reminders**. For Wi-Fi names, allow **Location Access (Precise)** and turn on Location (GPS). See **Settings** > **System & Integration** > **Permissions Manager**.
+For exact times, allow **Alarms & Reminders**. For Wi-Fi names, allow **Location Access (Precise)** and turn on Location (GPS). See **Settings** > **Privacy & Permissions** > **Permissions Manager**.
 :::
 
 ## Create a task

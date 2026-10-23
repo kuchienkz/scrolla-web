@@ -1,7 +1,7 @@
 ---
 icon: life-ring
-order: 16
-date: 2026-10-05
+order: 20
+date: 2026-10-23
 category:
   - Guides
 tag:
@@ -17,14 +17,20 @@ tag:
 2. Check that at least one playlist is **on** (switch on the playlist card) and has wallpapers.
 3. Check that you are looking at the right [profile](profiles.md). The Playlists tab title shows the profile you are editing.
 4. Tap **Restart Engine**.
-5. Open **Wallpaper Engine Logs** and look for errors.
+5. Open **Settings** > **Advanced** > **Wallpaper Engine Logs** and look for errors.
+
+## The wallpaper does not switch
+
+- Check that automatic switching is not paused on the [Home Screen Widget](home-screen-widget.md).
+- Check the **Periodic Switch Interval** of the playlist. `0` turns it off. See [Playlists](playlists.md#playlist-settings).
 
 ## The wallpaper does not scroll
 
 - With **CONTAIN** screen fit, the full image is already visible, so there is nothing to scroll. Use **COVER**.
 - If the image has the same shape as your screen, there is nothing to scroll. Use a wider or taller image, or use **Zoom** in [Pre-Transform](wallpaper-settings.md#pre-transform).
 - Check the Loop animation type. **Static** does not move. Use **Single Axis Scroll**.
-- Check **Max Cycle**. If it is not `0`, the scroll stops after that many cycles.
+- Check the switch timing. With **Max Cycle** or **Fixed Duration**, the wallpaper switches after its cycles. See [Animations](animations.md#single-axis-scroll-settings).
+- Check that the scroll animation is not paused on the [Home Screen Widget](home-screen-widget.md).
 
 ## The scroll is too fast or too slow
 
@@ -44,7 +50,7 @@ Some phones stop live wallpapers after a restart, or stop apps in the background
 ## Tasks do not run, or run late
 
 1. Open **Tasks** > **Execution Logs**. Check if the trigger fired, and which precondition stopped the task.
-2. Allow **Alarms & Reminders** in **Settings** > **System & Integration** > **Permissions Manager**.
+2. Allow **Alarms & Reminders** in **Settings** > **Privacy & Permissions** > **Permissions Manager**.
 3. Check that the task is **Enabled** and its **Usage Count** is not used up.
 4. Turn off battery optimization for Scrolla Wallpaper.
 
@@ -68,9 +74,20 @@ Some phones stop live wallpapers after a restart, or stop apps in the background
 - Use images instead of videos, or use the **Static** loop for very big images.
 - Turn off **Show Debug Info**.
 
+## The audio visualizer does not move
+
+- Open the visualizer's **Audio** panel in the [Scene Editor](scenes.md#audio-visualizer). It shows whether the visualizer can hear your music.
+- If it says there is no audio access, tap **Allow**, or allow **Microphone Access** in **Settings** > **Privacy & Permissions** > **Permissions Manager**.
+- The bars stay hidden until music plays. Turn on **Test signal** to check the look without music.
+- Some phones give no sound levels for some outputs. Set **When audio cannot be read** to **Simulated motion** to show a generic rhythm instead.
+
+## A video wallpaper has no sound
+
+Video sound is off by default. Turn on **Audio** > **Enabled** in the wallpaper's settings. See [Wallpaper Settings](wallpaper-settings.md#audio).
+
 ## Some wallpapers are blurred or hidden
 
-They have the **NSFW** tag. Change **Settings** > **Content Preferences** > **NSFW Content Visibility**. See [Content Safety Tag](../legals/content-safety-tag.md).
+They have the **NSFW** tag. Change **Settings** > **Appearance & Content** > **NSFW Content Visibility**. See [Content Safety Tag](../legals/content-safety-tag.md).
 
 ## Cloud wallpapers do not download
 
@@ -80,7 +97,7 @@ They have the **NSFW** tag. Change **Settings** > **Content Preferences** > **NS
 
 ## I need more free storage
 
-- Lower **Cloud Cache Persistence Limit** in **Content Preferences**.
+- Lower **Cloud Cache Persistence Limit** in **Settings** > **Cloud & Storage**.
 - Set **Background Cache Eviction** to a small number of days.
 - Use **Clear Caches** on wallpapers you do not use often.
 - Move wallpapers to the cloud with **Migrate to Cloud**, then **Unsubscribe** the ones you do not need offline.

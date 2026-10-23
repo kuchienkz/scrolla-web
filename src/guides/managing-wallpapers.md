@@ -1,7 +1,7 @@
 ---
 icon: images
 order: 5
-date: 2026-10-05
+date: 2026-10-23
 category:
   - Guides
 tag:
@@ -17,12 +17,13 @@ Open your library from **Resources** > **WALLPAPERS**.
 The Wallpapers page with the search bar, filters and a grid of wallpapers.
 :::
 
-## Local and cloud wallpapers
+## Local, cloud and custom wallpapers
 
-The library has two sources. Use the selector at the top to switch:
+The library has three sources. Use the selector at the top to switch:
 
-- **Local Storage**: wallpapers on your device.
-- **Cloud Storage**: wallpapers in your connected Google Drive. This appears only after you connect a drive. See [Cloud Storage](cloud-storage.md).
+- **Local**: wallpapers on your device.
+- **Cloud**: wallpapers in your connected Google Drive. See [Cloud Storage](cloud-storage.md).
+- **Custom**: search a public wallpaper API and download from it. See [Custom Repositories](custom-repositories.md).
 
 Each wallpaper can show a badge:
 
@@ -36,12 +37,12 @@ Each wallpaper can show a badge:
 
 ## View a wallpaper
 
-- **Tap** a wallpaper to see it full screen.
+- **Tap** a wallpaper to see it full screen, with its details and tags. Tap **Copy Tags** to copy its tags, then paste them into another wallpaper with **Copy from...** > **Clipboard** in the [wallpaper editor](importing-wallpapers.md#the-wallpaper-editor).
 - **Long-press** a wallpaper to see its details and the actions you can do with it.
 
 ## Search and filter
 
-- **Search**: type a tag name. To find one wallpaper by its number, type `#id:` and the number, for example `#id:123`.
+- **Search**: type a tag or a file name. To find one wallpaper by its number, type `#id:` and the number, for example `#id:123`.
 - **Tag filter**: add tags to show only wallpapers that have them. You can also exclude a tag.
 - **File Size**: show only wallpapers smaller than 2, 10, 20 or 50 MB, or tap **Custom...** to set a minimum and maximum size.
 - **Filter Local Wallpapers**: show **Subscribed**, **Local** or **Ephemeral** wallpapers.

@@ -1,7 +1,7 @@
 ---
 icon: file-import
 order: 4
-date: 2026-10-05
+date: 2026-10-23
 category:
   - Guides
 tag:
@@ -102,9 +102,10 @@ The editor opens after every import. It also opens when you edit wallpapers late
 | Option | What it does |
 |---|---|
 | **Edit Tags** | Add or remove tags for this wallpaper. |
-| **Copy from...** | Copy the tags of wallpapers that are already in your library. |
+| **Copy from...** | Copy tags from **Existing wallpaper(s)** in your library, from the **Clipboard** (tags you copied with **Copy Tags** in the image viewer), or from another wallpaper in the same import. |
 | **3D Rendering** | Show this wallpaper as a 360° panorama. Use it only for equirectangular or panorama images and videos. |
-| **Override Default Configuration** | Give this wallpaper its own [Wallpaper Settings](wallpaper-settings.md) and [Animations](animations.md). |
+| **Override Default Configuration** | Give this wallpaper its own [Wallpaper Settings](wallpaper-settings.md), [Animations](animations.md) and, for videos, [Audio](wallpaper-settings.md#audio). |
+| **Wallpaper scene** | Give this wallpaper its own [scene](scenes.md), for example a clock that shows only with it. Available after the wallpaper is saved. |
 
 ### Edit many wallpapers at once
 

@@ -1,7 +1,7 @@
 ---
 icon: tags
 order: 6
-date: 2026-10-05
+date: 2026-10-23
 category:
   - Guides
 tag:
@@ -21,7 +21,7 @@ Tags are labels on your wallpapers, for example `landscape`, `night` or `anime`.
 
 | Level | What it is | Example |
 |---|---|---|
-| **Dataset** | A collection of tags. | "Danbooru", "My Custom Dataset" |
+| **Dataset** | A collection of tags. | "Art Tags", "My Custom Dataset" |
 | **Tag Category** | A group of tags inside a dataset. | "CHARACTER", "STYLE", "GENERAL" |
 | **Tag** | One label. A tag can have **aliases**, which are other names for the same tag. | `sunset` (alias `dusk`) |
 
@@ -41,7 +41,7 @@ The Select Tags dialog with search results and selected tags.
 :::
 
 ::: tip Copy tags
-Tap **Copy from...** to copy all tags from wallpapers that are already in your library.
+Tap **Copy from...** to copy all tags from wallpapers that are already in your library, or from the **Clipboard**. To put tags on the clipboard, open a wallpaper full screen and tap **Copy Tags**.
 :::
 
 ### Required and single-choice categories
@@ -83,7 +83,7 @@ Tap the **dataset button** in the top-right corner of the **Resources** tab to o
 Open a dataset to see its **TAG CATEGORIES** and tags.
 
 - **Import Tags**: import many tags from a JSON file. Tap **Download Tag dataset example** to see the expected format. During import, the **CONFIGURE TAG CATEGORIES** step lets you set each category's name, **View Priority** and rules.
-- **View Priority**: categories with a higher priority show first.
+- **View Priority**: categories with a higher priority show first. The [Home Screen Widget](home-screen-widget.md) can show the tags of the categories you select.
 - **DELETE THIS DATASET**: deletes the dataset with all its categories and tags.
 
 ::: warning

@@ -1,7 +1,7 @@
 ---
 icon: rocket
 order: 1
-date: 2026-10-05
+date: 2026-10-23
 category:
   - Guides
 tag:
@@ -101,3 +101,5 @@ Go to your home screen. Your wallpaper now scrolls slowly across the full image.
 - Change wallpapers every few minutes or on unlock: [Playlists](playlists.md#playlist-settings).
 - Use a different setup on the lock screen: [Profiles](profiles.md).
 - Switch playlists automatically at night or at home: [Tasks](tasks.md).
+- Add a clock or music bars on your wallpaper: [Scenes](scenes.md).
+- Control the wallpaper from your home screen: [Home Screen Widget](home-screen-widget.md).

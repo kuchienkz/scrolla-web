@@ -7,7 +7,7 @@ dir:
 
 # Guides
 
-Step-by-step tutorials for **Scrolla Wallpaper**. If this is your first time, start with **Quick Start**.
+Step-by-step tutorials for **Scrolla Wallpaper**. They follow the **3.0 Beta** release on Google Play. If this is your first time, start with **Quick Start**.
 
 ## Getting started
 
@@ -30,15 +30,19 @@ Step-by-step tutorials for **Scrolla Wallpaper**. If this is your first time, st
 
 - [Wallpaper Settings](wallpaper-settings.md): Screen Fit, Base Color, Pre-Transform, 3D and where settings apply.
 - [Animations](animations.md): Enter, Loop and Exit animations, and automatic IFTT rules.
+- [Scenes (Clock, Visualizer, Shapes)](scenes.md): put a clock, music bars and shapes on your wallpaper.
 
-## Automation and screens
+## Screens, automation and controls
 
 - [Profiles (Home & Lock Screen)](profiles.md): separate setups for each screen.
 - [Tasks](tasks.md): change wallpapers or playlists automatically by time, network and more.
+- [Home Screen Widget & Quick Settings](home-screen-widget.md): control the wallpaper from your home screen.
+- [App Themes](themes.md): colors and backgrounds of the app, per profile.
 
 ## Storage and safety
 
 - [Cloud Storage (Google Drive)](cloud-storage.md): store, sync and stream wallpapers from your Drive.
+- [Custom Repositories](custom-repositories.md): search and download from public wallpaper APIs.
 - [Backup & Restore](backup-restore.md): keep your setup safe and move it to a new device.
 - [Working Directory](configurations/working-directory.md): where Scrolla keeps your files.
 

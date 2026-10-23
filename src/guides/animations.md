@@ -1,7 +1,7 @@
 ---
 icon: film
 order: 10
-date: 2026-10-05
+date: 2026-10-23
 category:
   - Guides
 tag:
@@ -55,8 +55,12 @@ The Animations editor in Manual mode, on the Loop tab.
 
 **Timing**: select one:
 
-- **Moving Speed (Pixels/s)**: the scroll moves at a constant speed. Big images take longer.
-- **Fixed Duration**: one scroll always takes the same number of seconds.
+- **Moving Speed (Pixels/s)**: the scroll moves at a constant speed. Big images take longer. Then select when the wallpaper switches:
+  - **Loop Until Playlist Switch**: keep scrolling until the playlist's [switch interval](playlists.md#playlist-settings).
+  - **Max Cycle**: switch to the next wallpaper after this many **Cycles**.
+- **Fixed Duration**: one cycle always takes the same number of seconds (**Duration Seconds**), then the wallpaper switches.
+
+One cycle is one scroll from start to finish, or there and back with **Reverse Animation**.
 
 **Starting Coordinate** and **Finish Coordinate**: where the scroll starts and ends.
 
@@ -67,12 +71,11 @@ The default scroll goes from **Top Left** to **Bottom Right**. With **COVER** sc
 
 **Cycle Behavior**:
 
-- **Max Cycle (0 = Unlimited)**: how many times the scroll repeats. `0` repeats forever.
 - **Reverse Animation**: when the scroll reaches the end, it goes back to the start. If this is off, it jumps back to the start.
 
 **Interactive Pan & Zoom**:
 
-- **Enable Pan & Zoom (Opt-in)**: lets you drag and pinch the wallpaper on your home screen while it scrolls.
+- **Enable Pan & Zoom (Opt-in)**: lets you drag and pinch the wallpaper on your home screen while it scrolls. It is on by default for GIFs, animated WebP and videos. The wallpaper follows your fingers smoothly.
 - **Auto-restore Delay (Seconds)** and **Restore Duration (Seconds)**: after you stop touching it, the wallpaper waits, then moves back smoothly.
 
 ::: tip Make the scroll slower or faster

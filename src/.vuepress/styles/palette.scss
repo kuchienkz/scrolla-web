@@ -1,2 +1,8 @@
 // you can change colors here
 $theme-color: #096dd9;
+
+// The navbar heights include the Beta banner above the navbar (see index.scss),
+// so every offset the theme derives from them leaves room for it.
+// Desktop: 3.75rem navbar + 2.25rem banner. Mobile: 3.25rem navbar + 3rem banner.
+$navbar-height: 6rem;
+$navbar-mobile-height: 6.25rem;

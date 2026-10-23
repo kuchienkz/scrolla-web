@@ -1,7 +1,7 @@
 ---
 icon: cloud
-order: 13
-date: 2026-10-05
+order: 16
+date: 2026-10-23
 category:
   - Guides
 tag:
@@ -30,8 +30,8 @@ Connect your Google Drive to:
 
 ## Connect Google Drive
 
-1. Go to **Settings** > **System & Integration** > **Cloud Storage Manager**.
-2. Tap **Connect Cloud Drive** (or **Add Cloud Storage**).
+1. Go to **Settings** > **Cloud & Storage** > **Cloud Storage Manager**.
+2. Tap **Add Repository** (the **+** button), then tap **Google Drive (Drive API)**.
 3. Tap **Sign in with Google** and sign in. Allow access to Google Drive.
 4. When you see **Account authorized**, tap **Next**.
 5. Enter the **Folder Path** in your Drive, for example `scrolla-wp`. If the folder does not exist, the app creates it.
@@ -44,7 +44,7 @@ The Connect Cloud Drive wizard on the "Select Cloud Sync Path" step.
 ## Browse cloud wallpapers
 
 1. Go to **Resources** > **WALLPAPERS**.
-2. Switch the source to **Cloud Storage**.
+2. Switch the source to **Cloud**.
 3. Select the drive and **Root Folder** if you have more than one.
 
 The app downloads thumbnails as you scroll. To reload the list from the cloud, tap **Refresh Cloud Items**. This also clears the cloud browsing cache.
@@ -55,7 +55,7 @@ For big collections, create an index first. See [Maintenance](#maintenance). The
 
 ## Move local wallpapers to the cloud {#move-local-wallpapers-to-the-cloud}
 
-1. In the library, select wallpapers on **Local Storage**.
+1. In the library, select wallpapers on **Local**.
 2. Open **Wallpaper Actions** and tap **Migrate to Cloud**.
 3. On **Prepare Migration**, under **Select Destination(s)**, select the cloud drive.
 4. Optional, under **Tag Syncing**:
@@ -133,6 +133,8 @@ Open **Cloud Storage Manager** and tap the drive.
   - **Retain as local wallpapers**: keep them on your device as normal wallpapers.
   - **Unsubscribe & delete from device**: delete the downloaded copies.
 
+  Temporary (Ephemeral) wallpapers of [Dynamic Playlists](dynamic-playlists.md) from this drive are always deleted.
+
 ### Maintenance {#maintenance}
 
 | Tool | What it does |
@@ -161,7 +163,11 @@ Open the profile panel (**Profile** in the bottom bar), then tap **Transfer & Mi
   - **Network Restriction**: **Any Network** or **Wi-Fi Only**.
   - **Cancel Remaining Queued Jobs**: removes waiting transfers. Transfers that already started finish normally.
 
-You can also set **Max Concurrent Cloud Transfers** and **Cloud Transfer Network** in **Settings** > **System & Integration**.
+You can also set these in **Settings** > **Cloud & Storage**, under **Transfers**:
+
+- **Max Concurrent Cloud Transfers** and **Cloud Transfer Network** (**Any Network** or **Wi-Fi Only**).
+- **When Wi-Fi Is Lost** (only with **Wi-Fi Only**): **Pause** stops running downloads and resumes them later from where they stopped. **Continue** lets them finish on mobile data.
+- **Unrestrict network for Dynamic Playlist Batches** (only with **Wi-Fi Only**): [Dynamic Playlist](dynamic-playlists.md) batches download on any connection, including mobile data.
 
 ### Mobile data
 
@@ -176,4 +182,8 @@ If the app closed during a transfer, it asks **Unfinished Cloud Transfers** the 
 
 ## Storage used by the cloud cache
 
-Thumbnails and temporary downloads use space on your device. Set the limit in **Settings** > **Content Preferences** > **Cloud Cache Persistence Limit** (100 MB to 10 GB). See also **Background Cache Eviction** in the [Settings Reference](settings.md#performance-caching).
+Thumbnails and temporary downloads use space on your device. Set the limit in **Settings** > **Cloud & Storage** > **Cloud Cache Persistence Limit** (100 MB to 10 GB). **Background Cache Eviction** on the same page deletes old cached wallpapers. See the [Settings Reference](settings.md#cloud-storage).
+
+## Custom Repositories
+
+**Cloud Storage Manager** also lists your **Custom API** repositories: public wallpaper websites that you can search and download from. See [Custom Repositories](custom-repositories.md).

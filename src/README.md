@@ -10,7 +10,7 @@ heroFullScreen: true
 projects:
   - icon: project
     name: Latest Version
-    desc: 2.0.1 BETA
+    desc: 3.0 Beta
     link: changelogs
 
   - icon: link

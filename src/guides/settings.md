@@ -1,7 +1,7 @@
 ---
 icon: gear
-order: 15
-date: 2026-10-05
+order: 19
+date: 2026-10-23
 category:
   - Guides
 tag:
@@ -11,10 +11,10 @@ tag:
 
 # Settings Reference
 
-Tap **Settings** in the bottom bar. This page explains each section.
+Tap **Settings** in the bottom bar to open **Preferences**. **Engine Control** is at the top. Below it, the settings are grouped into pages. This page explains each one.
 
-::: details 🖼️ Screenshot placeholder: `settings/01-settings-top.png`
-The top of the Settings tab, showing the Engine Control section with the service status.
+::: details 🖼️ Screenshot placeholder: `settings/01-preferences.png`
+The Preferences page with Engine Control and the list of settings pages.
 :::
 
 ## Engine Control
@@ -28,27 +28,16 @@ The status of the live wallpaper.
 | **Stop** | Stops the wallpaper service. Your phone goes back to the system default wallpaper. |
 | **Restart Engine** | Restarts the wallpaper engine. Try this first when the wallpaper looks wrong or does not move. |
 | **Refresh Status & Telemetry** | Reads the current network and playback state again. |
-| **Wallpaper Engine Logs** | Shows service events, wallpaper switches and errors. Logs are deleted after 3 days. |
 
 ::: info Wi-Fi name not shown?
 On Android 10 and newer, the app can only read the Wi-Fi name when **Location (GPS)** is on in Quick Settings and the app has **Precise** location permission.
 :::
 
-## System & Integration
+## Playback {#playback}
 
-| Item | What it does |
-|---|---|
-| **Permissions Manager** | Allow or check **Alarms & Reminders** and **Location Access (Precise)**. |
-| **Cloud Storage Manager** | Connect and manage Google Drive. See [Cloud Storage](cloud-storage.md). |
-| **Backup & Restore** | Cloud and ZIP backups. See [Backup & Restore](backup-restore.md). |
-| **Max Concurrent Cloud Transfers** | How many cloud uploads or downloads run at the same time. |
-| **Cloud Transfer Network** | **Any Network** (Wi-Fi or mobile data) or **Wi-Fi Only**. |
+### Playlists
 
-## Playback Behavior {#playback-behavior}
-
-### Multiple Playlists Strategy
-
-What happens when more than one playlist is active:
+**Multiple Playlists Strategy**: what happens when more than one playlist is active.
 
 | Option | Result |
 |---|---|
@@ -56,15 +45,13 @@ What happens when more than one playlist is active:
 | **Round-robin** | One wallpaper from each active playlist, in turn. |
 | **Sequential** | All wallpapers of one playlist, then all wallpapers of the next playlist. |
 
-### Default Playlist Settings
+**Default Playlist Settings**: switch interval, shuffle, and switch on lock or unlock, for all playlists. See [Playlists](playlists.md#playlist-settings).
 
-Switch interval, shuffle, and switch on lock or unlock, for all playlists. See [Playlists](playlists.md#playlist-settings).
+### Wallpapers
 
-### Default Wallpaper Settings
-
-Screen Fit, Base Color, Pre-Transform, Animations and 3D settings for all wallpapers. See [Wallpaper Settings](wallpaper-settings.md).
-
-## Performance & Caching {#performance-caching}
+- **Default Wallpaper Settings**: Screen Fit, Base Color, Pre-Transform, Animations, Audio and 3D settings for all wallpapers. See [Wallpaper Settings](wallpaper-settings.md).
+- **Scene**: layers, clock, audio visualizer and shapes around your wallpapers, for the profile you are editing. See [Scenes](scenes.md).
+- **Loading Wallpaper** and **Fallback Wallpaper**: what shows while wallpapers are being prepared, and when no wallpaper is available. See [Wallpaper Settings](wallpaper-settings.md#loading-and-fallback-wallpapers).
 
 ### Rendering
 
@@ -73,45 +60,81 @@ Screen Fit, Base Color, Pre-Transform, Animations and 3D settings for all wallpa
 - **15 FPS — Battery saver**
 - **30 FPS — Balanced**
 - **60 FPS — Standard**
-- **Custom**
-
-### Thumbnails
-
-- **Thumbnails Generation**: **Unified (minimal storage)** uses less space. **Differ by Frame Size (best performance)** loads faster.
-- **Animated Thumbnails**: show moving thumbnails for animated wallpapers. To apply a change to existing thumbnails, tap **Clear Thumbnail Caches**.
-- **Clear Thumbnail Caches**: deletes all thumbnails. The app makes them again when needed.
-
-### Background Cache Eviction
-
-Deletes old cached cloud wallpapers every N days (0 to 30). Set it to **Never** to keep them.
+- **Custom** (10 to 120)
 
 ### Preloading
 
 - **Preload Next Wallpapers**: prepare the next 0 to 3 wallpapers in advance, so switches are smoother. More uses more memory.
 - **Enable Video Preloading**: also prepare videos in advance. This can cause stutter or battery drain on slower phones. The app limits it to 1 video.
 
+## Cloud & Storage {#cloud-storage}
+
+### Cloud
+
+| Item | What it does |
+|---|---|
+| **Cloud Storage Manager** | Connect and manage Google Drive and [Custom Repositories](custom-repositories.md). See [Cloud Storage](cloud-storage.md). |
+| **Backup & Restore** | Cloud and ZIP backups. See [Backup & Restore](backup-restore.md). |
+
+### Transfers
+
+| Item | What it does |
+|---|---|
+| **Max Concurrent Cloud Transfers** | How many cloud uploads or downloads run at the same time. |
+| **Cloud Transfer Network** | **Any Network** (Wi-Fi or mobile data) or **Wi-Fi Only**. |
+| **When Wi-Fi Is Lost** | Only with **Wi-Fi Only**. **Pause** stops running downloads and resumes them later. **Continue** lets them finish. |
+| **Unrestrict network for Dynamic Playlist Batches** | Only with **Wi-Fi Only**. [Dynamic Playlist](dynamic-playlists.md) batches download on any connection, including mobile data. |
+
+### Cache
+
+- **Cloud Cache Persistence Limit**: the maximum space for cloud thumbnails and downloads (100 MB to 10 GB).
+- **Background Cache Eviction**: deletes old cached cloud wallpapers every N days (0 to 30). Set it to **Never** to keep them.
+
+### Misc
+
+Only for signed-in users. **Maximize Compatibility (experimental)** changes how [Custom Repositories](custom-repositories.md) work. Use it at your own risk.
+
+## Performance {#performance}
+
+### Thumbnails
+
+- **Thumbnails Generation**: **Unified (minimal storage)** uses less space. **Differ by Frame Size (best performance)** loads faster. Changing it clears the thumbnail caches.
+- **Animated Thumbnails**: show moving thumbnails for animated wallpapers. To apply a change to existing thumbnails, tap **Clear Thumbnail Caches**.
+- **Clear Thumbnail Caches**: deletes all thumbnails. The app makes them again when needed.
+
 ### Processing
 
-**Max Concurrent Processes**: how many thumbnails the app makes at the same time in the background (1 to 20). Lower it if the app is slow while you scroll through a big library.
+**Max Concurrent Processes**: how many thumbnails the app makes at the same time in the background. Lower it if the app is slow while you scroll through a big library.
 
-## Appearance
+## Appearance & Content {#appearance-content}
 
-**Theme**: select the color theme of the app. Each [profile](profiles.md) can also have its own theme.
+### Appearance
 
-## Content Preferences
+- **Theme**: the colors of the app, per profile. See [App Themes](themes.md).
+- **Home Screen Widget**: colors, opacity and wallpaper tags of the widget. See [Home Screen Widget](home-screen-widget.md).
 
-- **NSFW Content Visibility**: how wallpapers with the **NSFW** tag show in the app: **Hidden**, **Blur** or **Show**. See [Content Safety Tag](../legals/content-safety-tag.md).
-- **Cloud Cache Persistence Limit**: the maximum space for cloud thumbnails and downloads (100 MB to 10 GB).
+### Content
+
+**NSFW Content Visibility**: how wallpapers with the **NSFW** tag show in the app: **Hidden**, **Blur** or **Show**. See [Content Safety Tag](../legals/content-safety-tag.md).
+
+## Privacy & Permissions {#privacy-permissions}
+
+| Item | What it does |
+|---|---|
+| **Ad Privacy Options** | Change your ad consent choices. Shown only where the law asks for it. |
+| **Permissions Manager** | Allow or check **Alarms & Reminders**, **Location Access (Precise)** and **Microphone Access**. See [First Launch Setup](first-launch-setup.md#permissions). |
 
 ## Advanced
 
 | Item | What it does |
 |---|---|
-| **App Version** | The installed version. Include it when you report a bug. |
+| **Wallpaper Engine Logs** | Shows service events, wallpaper switches and errors. Logs are deleted after 3 days. |
 | **Show Debug Info** | Shows technical information on the wallpaper. It can slow down the wallpaper. |
 | **Export Database** | Saves a copy of the app database to your Downloads folder. The developer can ask for it to find a bug. |
-| **Restore Default Settings** | Resets all settings on this page to their defaults. Your wallpapers, playlists and tasks are not deleted. |
+| **Restore Default Settings** | Resets all settings to their defaults. Your wallpapers, playlists and tasks are not deleted. |
+
+The **App Version** is at the bottom of the Preferences page. Include it when you report a bug.
 
 ## Account
 
-To sign in, tap **Sign in with Google** at the top of the Settings tab. When you are signed in, tap your picture to open your **User Profile** and **Purchase History**.
+To sign in, tap **Sign in with Google** at the top of the Preferences page. When you are signed in, tap your picture to open your **User Profile**, with **View Purchase History** and **Sign out**.

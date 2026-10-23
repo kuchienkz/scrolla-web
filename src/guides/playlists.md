@@ -1,7 +1,7 @@
 ---
 icon: list
 order: 7
-date: 2026-10-05
+date: 2026-10-23
 category:
   - Guides
 tag:
@@ -38,7 +38,7 @@ Each playlist name must be unique. If the name is already in use, the app shows 
 The wallpaper selection page with several wallpapers selected and the confirm button.
 :::
 
-You can also add cloud wallpapers. The app downloads them first (see [Cloud Storage](cloud-storage.md)).
+You can also add cloud wallpapers. The app downloads them first (see [Cloud Storage](cloud-storage.md)). On the **Custom** source you can add pictures from a [Custom Repository](custom-repositories.md); the app downloads them into your library.
 
 ## Turn a playlist on or off
 
@@ -46,13 +46,13 @@ On the **Playlists** tab, use the **switch** on the playlist card.
 
 - A new playlist is **off**.
 - An empty playlist has no switch. It shows **Tap to add wallpapers**.
-- You can turn on more than one playlist. **Settings** > **Playback Behavior** > **Multiple Playlists Strategy** decides how they play together. See [Settings Reference](settings.md#playback-behavior).
+- You can turn on more than one playlist. **Settings** > **Playback** > **Multiple Playlists Strategy** decides how they play together. See [Settings Reference](settings.md#playback).
 
 ## Inside a playlist
 
 A playlist has two tabs: **Wallpapers** and **Settings**.
 
-### Wallpapers tab
+### Wallpapers tab {#wallpapers-tab}
 
 Long-press a wallpaper to open its menu:
 
@@ -60,7 +60,7 @@ Long-press a wallpaper to open its menu:
 |---|---|
 | **Begin selection** | Start selecting several wallpapers. |
 | **Set as Cover** / **Unset Cover** | Use this wallpaper as the picture of the playlist card. |
-| **Override Config** | Give this wallpaper different settings **only in this playlist**. See [Wallpaper Settings](wallpaper-settings.md#where-settings-apply). |
+| **Override Config** | Change this wallpaper **only in this playlist**. It opens **Override Wallpaper Config** with two options: **Override Scene** (its own [scene](scenes.md) in this playlist) and **Override Config** (its own [settings](wallpaper-settings.md#where-settings-apply) in this playlist). Tap **Save** when you are done. |
 | **Export** | Save a copy of the file to Downloads. |
 | **Calculate Dimension** | Read the width and height again. |
 | **Remove from playlist** | Remove it from this playlist. The wallpaper stays in your library. |
@@ -90,7 +90,7 @@ An open playlist on the Wallpapers tab, with the top menu open.
 
 ## Playlist settings {#playlist-settings}
 
-These settings control **when** the wallpaper changes. Set the default for all playlists in **Settings** > **Playback Behavior** > **Default Playlist Settings**. To use different values for one playlist, turn on **Override Playlist Configuration** in that playlist's Settings tab.
+These settings control **when** the wallpaper changes. Set the default for all playlists in **Settings** > **Playback** > **Default Playlist Settings**. To use different values for one playlist, turn on **Override Playlist Configuration** in that playlist's Settings tab.
 
 | Setting | What it does |
 |---|---|

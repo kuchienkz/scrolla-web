@@ -19,7 +19,11 @@ Scroll images in any direction. Add enter and exit animations such as fade, slid
 
 **IMAGES, VIDEOS AND 360° PANORAMAS**
 
-Use images, animated GIFs, videos and 3D panoramas with gyroscope and touch control. [Learn more](guides/wallpaper-settings.md)
+Use images, animated GIFs, videos and 3D panoramas with gyroscope and touch control. Video wallpapers can play their sound. [Learn more](guides/wallpaper-settings.md)
+
+**SCENES: CLOCK, AUDIO VISUALIZER AND SHAPES**
+
+Add a digital clock, music-reactive bars and shapes on top of your wallpaper. Give a single wallpaper its own scene that comes and goes with it. [Learn more](guides/scenes.md)
 
 **PLAYLISTS**
 
@@ -33,14 +37,22 @@ Use a different setup on your home screen and your lock screen. [Learn more](gui
 
 Change wallpapers or switch playlists automatically, based on time, day, Wi-Fi network, battery and more. [Learn more](guides/tasks.md)
 
+**HOME SCREEN WIDGET**
+
+Skip to the next wallpaper, pause switching or the animation, and save the current wallpaper, right from your home screen or Quick Settings. [Learn more](guides/home-screen-widget.md)
+
+**THEMES**
+
+Color the app your way, per profile, with a picture or your wallpaper behind the pages. [Learn more](guides/themes.md)
+
 **WALLPAPER MANAGEMENT**
 
 Import with tags from metadata files, find duplicates, search and filter by tags. [Learn more](guides/managing-wallpapers.md)
 
 **GOOGLE DRIVE AND BACKUP**
 
-Keep big collections in your Google Drive and use them on all your devices. Back up your setup to the cloud or to a ZIP file. [Learn more](guides/cloud-storage.md)
+Keep big collections in your Google Drive and use them on all your devices. Search public wallpaper APIs with [Custom Repositories](guides/custom-repositories.md). Back up your setup to the cloud or to a ZIP file. [Learn more](guides/cloud-storage.md)
 
 ## ⚠️ Beta warning
 
-This app is still in development. Bugs can happen. Please help make it stable by reporting any bug you find to the developer by email. See [how to report a bug](guides/troubleshooting.md#report-a-bug).
+This guide describes the **Beta release** on Google Play. Some users may not have access to it yet. The app is still in development, and bugs can happen. Please help make it stable by reporting any bug you find to the developer by email. See [how to report a bug](guides/troubleshooting.md#report-a-bug).

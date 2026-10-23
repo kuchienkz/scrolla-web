@@ -1,7 +1,7 @@
 ---
 icon: layer-group
-order: 11
-date: 2026-10-05
+order: 12
+date: 2026-10-23
 category:
   - Guides
 tag:
@@ -11,7 +11,7 @@ tag:
 
 # Profiles (Home & Lock Screen)
 
-A profile is a separate set of playlists, tasks and folders. Use profiles to show different wallpapers on your **Home Screen** and your **Lock Screen**, or to keep several setups that you can switch between.
+A profile is a separate set of playlists, tasks and folders, with its own [scene](scenes.md) and app [theme](themes.md). Use profiles to show different wallpapers on your **Home Screen** and your **Lock Screen**, or to keep several setups that you can switch between.
 
 ## Default profiles
 
@@ -37,14 +37,14 @@ To edit another profile:
 1. Tap **Profile** in the bottom bar.
 2. Tap a profile in the list. It is now marked **Active**.
 
-The app color theme changes to the theme of the profile, so you can see which profile you are in.
+The app color theme changes to the theme of the profile, so you can see which profile you are in. Change a profile's theme in **Settings** > **Appearance & Content** > **Theme**. See [App Themes](themes.md).
 
 ::: details 🖼️ Screenshot placeholder: `profiles/01-profile-panel.png`
 The profile panel with Home Screen and Lock Screen sections, one profile marked Active.
 :::
 
 ::: tip
-Selecting a profile in the panel only changes what you **edit**. To change which profile **plays** on a screen, turn it on in **Configure Profiles**.
+Selecting a profile in the panel only changes what you **edit**: its playlists, tasks, folders, [scene](scenes.md) and theme. To change which profile **plays** on a screen, turn it on in **Configure Profiles**.
 :::
 
 ## Use a different wallpaper on the lock screen

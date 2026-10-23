@@ -1,7 +1,7 @@
 ---
 icon: wand-sparkles
 order: 8
-date: 2026-10-05
+date: 2026-10-23
 category:
   - Guides
 tag:
@@ -71,6 +71,10 @@ The playlist page shows the **Dynamic Playlist Queue**: your **Criteria & Parame
 - **Edit Criteria**: change the tags, size or source.
 - **Recreate Batches**: delete the current batches and make new ones. Use it after you import new wallpapers.
 
+### Change one wallpaper in this playlist
+
+Long-press a wallpaper in a batch and tap **Override Config**. You can give it its own [scene](scenes.md) (**Override Scene**) and its own [settings](wallpaper-settings.md#where-settings-apply) (**Override Config**) in this playlist. A wallpaper with changes shows a badge. Your changes come back when the playlist downloads the same wallpaper again.
+
 ::: details 🖼️ Screenshot placeholder: `dynamic-playlists/02-queue.png`
 The Dynamic Playlist Queue with one batch In Use and one In Queue.
 :::
@@ -82,5 +86,6 @@ In the playlist's **Settings** tab, turn off **Dynamic Playlist Mode**. This rem
 ## Tips
 
 - **No wallpapers matched criteria**: check your tags. Make sure the wallpapers have all the **Must Include Tags**.
-- Cloud wallpapers download only when the network is allowed. If you set cloud transfers to **Wi-Fi Only**, new cloud wallpapers arrive only on Wi-Fi. The app tries again when an allowed network connects. See [Cloud Storage](cloud-storage.md#transfer-history-and-settings).
+- Cloud wallpapers download only when the network is allowed. If you set cloud transfers to **Wi-Fi Only**, new cloud wallpapers arrive only on Wi-Fi. The app tries again when an allowed network connects. To let batches download on mobile data anyway, turn on **Unrestrict network for Dynamic Playlist Batches** in **Settings** > **Cloud & Storage**. See [Cloud Storage](cloud-storage.md#transfer-history-and-settings).
+- If the app lost access to your Google Drive, sign in again with **Refresh Auth**. The playlist fills its batches right after.
 - A Dynamic Playlist can also be turned on in normal playlist ways: with its switch, or with a [Task](tasks.md).

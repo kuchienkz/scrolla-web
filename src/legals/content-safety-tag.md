@@ -1,6 +1,6 @@
 ---
 icon: shield-halved
-date: 2026-10-05
+date: 2026-10-23
 category:
   - Legal
 tag:
@@ -31,15 +31,17 @@ If you are not sure whether a wallpaper is safe, mark it as NSFW.
 
 Wallpapers in your cloud repository keep this mark, so it also works on your other devices.
 
+Pictures that you download from a [Custom Repository](../guides/custom-repositories.md) get the NSFW tag automatically when the website does not rate them for all ages.
+
 ## Choose how NSFW wallpapers show
 
-Go to **Settings** > **Content Preferences** > **NSFW Content Visibility**:
+Go to **Settings** > **Appearance & Content** > **NSFW Content Visibility**:
 
 | Option | Result |
 |---|---|
 | **Hidden** (default) | NSFW wallpapers are not shown. |
 | **Blur** | NSFW wallpapers are blurred. |
-| **Show** | NSFW wallpapers are shown normally. |
+| **Show** | NSFW wallpapers are shown normally. While ads are shown in the app, they are blurred. |
 
 ## Your responsibility
 

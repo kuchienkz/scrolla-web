@@ -1,7 +1,7 @@
 ---
 icon: wand-magic-sparkles
 order: 2
-date: 2026-10-05
+date: 2026-10-23
 category:
   - Guides
 tag:
@@ -36,6 +36,7 @@ All permissions are **optional**. If you deny them, the app still works, but som
 |---|---|
 | **Alarms & Reminders** | Lets [Tasks](tasks.md) run at exact times in the background. Without it, scheduled tasks can run late. |
 | **Location Access (Precise)** | Lets the app read the name (SSID) of your Wi-Fi network. Tasks use it for Wi-Fi based triggers and conditions. |
+| **Microphone Access** | Lets the [audio visualizer](scenes.md#audio-visualizer) react to music from any app. The app reads the sound levels your phone plays. Nothing is recorded or stored. Without it, the visualizer only reacts to video wallpapers with sound. |
 
 Tap **Grant Permission** next to a permission to allow it. If Android does not show a prompt, tap **Open App Settings** and allow it there.
 
@@ -43,10 +44,10 @@ Tap **Grant Permission** next to a permission to allow it. If Android does not s
 To read Wi-Fi names, Android needs **Precise** location. When Android asks, select **Precise**. Also make sure **Location (GPS)** is turned on in your Quick Settings.
 :::
 
-You can change permissions later in **Settings** > **System & Integration** > **Permissions Manager**.
+You can change permissions later in **Settings** > **Privacy & Permissions** > **Permissions Manager**.
 
 ::: details 🖼️ Screenshot placeholder: `first-launch/02-permissions.png`
-The permissions step with both permission cards.
+The permissions step with the permission cards.
 :::
 
 ## 3. Working Directory {#working-directory}
@@ -69,6 +70,10 @@ On the same step you can restore an earlier offline backup:
 
 The restore runs when you finish the wizard. If the app shows **Invalid Backup Archive**, the ZIP file is not a Scrolla backup.
 
+::: info
+A restore here does not bring back [Custom Repositories](custom-repositories.md). Add them again after the wizard.
+:::
+
 ::: details 🖼️ Screenshot placeholder: `first-launch/03-working-directory.png`
 The working directory list and the "Restore from Backup (Optional)" section.
 :::
@@ -87,7 +92,7 @@ This step shows a summary of your choices:
 
 - Working Directory Path
 - Backup File to Restore (if you selected one)
-- Location Access and Alarms & Reminders status
+- Location Access, Alarms & Reminders and Microphone (Audio Visualizer) status
 - Legal statements that you accepted
 
 If something is wrong, tap **Back** and change it.
