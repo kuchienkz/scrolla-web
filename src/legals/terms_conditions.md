@@ -1,52 +1,101 @@
 ---
 icon: pen-to-square
-date: 2024-06-01
+date: 2026-10-23
 category:
   - Legal
 tag:
-  - privacy
-  - data
-  - safety
+  - terms
+  - disclaimer
 ---
 
 # Terms and Conditions
 
-By downloading or using the app (Scrolla Wallpaper), these terms will automatically apply to you -- you should make sure therefore that you read them carefully before using the app. You're not allowed to copy, or modify the app, any part of the app, or our trademarks in any way. You're not allowed to attempt to extract the source code of the app. Also, without my consent, you shouldn't try to translate the app into other languages, or make derivative versions. The app itself, and all the trade marks, copyright, database rights and other intellectual property rights related to it, still belong to Kuchienkz (Me, the developer).
+**Last updated: October 23, 2026**
 
-Kuchienkz (Me, the developer) is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you're paying for.
+These Terms and Conditions (the "Terms") are an agreement between you and **Kuchienkz** ("I", "me", "the developer") about your use of the **Scrolla Wallpaper** app for Android (the "App"). By installing or using the App, you agree to these Terms and to the [Privacy Policy](privacy_policy.md). If you do not agree, do not use the App.
 
-The Scrolla Wallpaper app stores and processes personal data that you have provided to us, in order to provide my Service. It's your responsibility to keep your phone and access to the app secure. We therefore recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your phone's security features and it could mean that the Scrolla Wallpaper app won't work properly or at all.
+## 1. Who makes the App
 
-The app does use third party services that declare their own Terms and Conditions.
+The App is made and maintained by **one independent developer**, Kuchienkz. There is no company, team or moderation staff behind it. Contact: **wahyupamengas.developer@gmail.com**.
 
-Link to Terms and Conditions of third party service providers used by the app
+## 2. What the App is
 
-- [Google Play Services](https://policies.google.com/terms)
-- [AdMob](https://developers.google.com/admob/terms)
-- [Google Analytics for Firebase](https://firebase.google.com/terms/analytics)
-- [Firebase Crashlytics](https://firebase.google.com/terms/crashlytics)
-- [Sentry](https://sentry.io/terms/)
+Scrolla Wallpaper is a **personal, offline-first live wallpaper tool**. It shows, animates and organizes media **that you add yourself**. The App does not come with a wallpaper library, and it does not host, publish or share your media with other users.
 
-You should be aware that there are certain things that Kuchienkz will not take responsibility for. Certain functions of the app will require the app to have an active internet connection. The connection can be Wi-Fi, or provided by your mobile network provider, but Kuchienkz cannot take responsibility for the app not working at full functionality if you don't have access to Wi-Fi, and you don't have any of your data allowance left.
+## 3. Disclaimer about your content
 
-If you're using the app outside of an area with Wi-Fi, you should remember that your terms of the agreement with your mobile network provider will still apply. As a result, you may be charged by your mobile provider for the cost of data for the duration of the connection while accessing the app, or other third party charges. In using the app, you're accepting responsibility for any such charges, including roaming data charges if you use the app outside of your home territory (i.e. region or country) without turning off data roaming. If you are not the bill payer for the device on which you're using the app, please be aware that we assume that you have received permission from the bill payer for using the app.
+**Please read this section carefully.**
 
-Along the same lines, Kuchienkz cannot always take responsibility for the way you use the app i.e. You need to make sure that your device stays charged -- if it runs out of battery and you can't turn it on to avail the Service, Kuchienkz cannot accept responsibility.
+- **You choose your content.** Everything you import, download, store, tag or display with the App ("Your Content") comes from you, from your device, from your own cloud storage, or from websites you choose to connect.
+- **The developer cannot see or control Your Content.** The App works on your device. I do not receive, review, screen or store Your Content, and I have no way to know or check what media you add to or use with the App.
+- **You are responsible for Your Content.** You must have the right to use it. It must not break any law that applies to you, including copyright, privacy and obscenity laws, and it must never include child sexual abuse material or other illegal content.
+- **Third-party sources.** Google Drive, Custom Repository websites and any other sources you connect are run by others. I do not own, run, check or endorse them, and I am not responsible for their content, availability or terms. Using them is at your own risk, and their own terms apply.
+- **Content safety tools are a help, not a guarantee.** The NSFW tag, blurring and content filters depend on tags and ratings that you or third parties set. They can miss content. See [Content Safety Tag](content-safety-tag.md).
+- **Personal use.** The App is designed for personal use on your own device. Do not use it to publicly display content you do not have the right to show.
 
-With respect to Kuchienkz's responsibility for your use of the app, when you're using the app, it's important to bear in mind that although we endeavour to ensure that it is updated and correct at all times, we do rely on third parties to provide information to us so that we can make it available to you. Kuchienkz accepts no liability for any loss, direct or indirect, you experience as a result of relying wholly on this functionality of the app.
+## 4. Your license to use the App
 
-At some point, we may wish to update the app. The app is currently available on Android -- the requirements for system (and for any additional systems we decide to extend the availability of the app to) may change, and you'll need to download the updates if you want to keep using the app. Kuchienkz does not promise that it will always update the app so that it is relevant to you and/or works with the Android version that you have installed on your device. However, you promise to always accept updates to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) uninstall it from your device.
+I give you a personal, non-exclusive, non-transferable, revocable license to install and use the App on Android devices that you own or control, for your **personal, non-commercial** use, under these Terms and the [Google Play Terms of Service](https://play.google.com/about/play-terms/).
 
-**Changes to This Terms and Conditions**
+You must not:
 
-I may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Terms and Conditions on this page.
+- copy, sell, rent, sublicense or redistribute the App, or publish modified versions of it;
+- reverse engineer, decompile or try to extract its source code, except where the law allows it;
+- remove or bypass ads, purchases, limits, security or licensing features;
+- use the App to break any law or anyone's rights, or to harm the App, its services or other people.
 
-These terms and conditions are effective as of January 15, 2021.
+The App, its name, logo, design and code belong to the developer and are protected by intellectual property laws. These Terms do not give you any rights to them except the license above. Your Content stays yours.
 
-**Contact Me**
+## 5. Accounts
 
-If you have any questions or suggestions about my Terms and Conditions, do not hesitate to contact me by sending an email to wahyupamengas.developer@gmail.com.
+You can use the App without an account. If you sign in with Google, you must keep your Google Account secure, and you are responsible for activity on your account in the App. You can ask me to delete your account at any time (see the [Privacy Policy](privacy_policy.md#your-choices-and-rights)).
 
-**Privacy Policy**
+## 6. Ads and purchases
 
-You can read the Privacy Policy [on this page](privacy_policy).
+- The free App shows ads from Google AdMob. See the [Privacy Policy](privacy_policy.md#advertising).
+- Paid features and items are sold through **Google Play** and its billing system. Prices are shown before you pay. Refunds follow [Google Play's refund policies](https://support.google.com/googleplay/answer/2479637) and the consumer laws that apply to you.
+- Features may change over time. If I remove a paid feature that you bought, I will try to offer a fair replacement or a refund where the law requires it.
+
+## 7. Beta software
+
+The App is under active development, and some versions are offered as a **Beta** through Google Play. Beta versions may have bugs, change features, or lose data. **Back up your data regularly.** You can report bugs by email.
+
+## 8. Internet, data costs and device
+
+Most features work offline. Some features need the internet (for example ads, sign-in, Google Drive and Custom Repositories). Your mobile operator's charges apply to any data the App uses, including roaming. Running a live wallpaper uses battery; you are responsible for your device's power and settings.
+
+Do not use the App on a rooted or modified device if you are not sure of its security; the App may not work correctly there.
+
+## 9. Updates and availability
+
+I may update, change or stop the App, or any feature, at any time. I do not promise that the App will support every Android version or device. Some updates may be needed to keep using the App.
+
+## 10. No warranty
+
+The App is provided **"as is" and "as available"**, without warranties of any kind, express or implied, including fitness for a particular purpose, accuracy, and non-infringement, to the maximum extent the law allows. I do not promise that the App will be error-free, secure or always available, or that it will never lose data.
+
+## 11. Limitation of liability
+
+To the maximum extent the law allows, the developer is **not liable** for any indirect, incidental, special, consequential or punitive damages, or for any loss of data, content, profits or device use, that arise from your use of (or inability to use) the App, Your Content, or any third-party service or website. My total liability for any claim about the App is limited to the amount you paid me for the App in the 12 months before the claim.
+
+Some countries do not allow these limits. In that case, they apply only as far as your local law allows. Nothing in these Terms limits rights that you have as a consumer and that cannot be waived.
+
+## 12. Indemnity
+
+To the extent the law allows, you agree to cover the developer against claims, losses and costs (including reasonable legal fees) caused by Your Content, by your use of third-party sources, or by your breach of these Terms or of the law.
+
+## 13. Ending these Terms
+
+You can stop using the App at any time by uninstalling it. I may suspend or end your access if you seriously break these Terms. When the Terms end, your license ends, and you must stop using the App. Sections 3, 4 (ownership), 10, 11, 12 and 14 continue to apply.
+
+## 14. Governing law
+
+These Terms are governed by the laws of **[COUNTRY]**, without regard to its conflict-of-law rules. Mandatory consumer protection laws of the country where you live still apply.
+
+## 15. Changes to these Terms
+
+I may update these Terms. I will post the new version on this page and change the "Last updated" date. If you keep using the App after a change, you accept the new Terms.
+
+## 16. Contact
+
+Questions about these Terms: **wahyupamengas.developer@gmail.com**.

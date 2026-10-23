@@ -1,6 +1,6 @@
 ---
 icon: pen-to-square
-date: 2024-06-01
+date: 2026-10-23
 category:
   - Legal
 tag:
@@ -11,79 +11,146 @@ tag:
 
 # Privacy Policy
 
-**Please read this Policy carefully. This Policy provides you with information on how I collect, use and/or share the information obtained from you. This Policy applies to my Application and does not apply to any third party services, websites, software and content that may be linked to from within the Application.**
+**Last updated: October 23, 2026**
 
-**BY ACCESSING, VISITING AND/OR USING THE APPLICATION, YOU CONSENT TO MY USE OF ANY INFORMATION THAT YOU PROVIDE TO ME OR MY PARTNERS IN ACCORDANCE WITH THIS POLICY. IF YOU DO NOT AGREE TO THIS POLICY, DO NOT ACCESS, VISIT AND/OR USE THE APPLICATION.**
+This Privacy Policy explains what happens to your information when you use the **Scrolla Wallpaper** app for Android (the "App"). Please read it together with the [Terms and Conditions](terms_conditions.md).
 
-Kuchienkz (Me, the developer) built the Scrolla Wallpaper app as a Freemium app. This SERVICE is provided by Kuchienkz at no cost and is intended for use as is.
+## Who I am
 
-This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+Scrolla Wallpaper is made by **Kuchienkz** ("I", "me", "the developer"), one independent developer. There is no company and no team behind the App. I am the person responsible for your information under this policy.
 
-If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
+Contact: **wahyupamengas.developer@gmail.com**
 
-The terms used in this Privacy Policy have the same meanings as in Terms and Conditions, which is accessible at Scrolla Wallpaper unless otherwise defined in this Privacy Policy.
+## The short version
 
-**Information Collection and Use**
+- The App is built to work **offline, on your own device**. Your wallpapers, playlists, tags, tasks, scenes and settings stay on your device. I never receive them.
+- I **do not sell** your information, and I do not use it to build advertising profiles.
+- Some information leaves your device only in these cases:
+  1. **Crash and error reports**, so I can fix bugs (Sentry).
+  2. **Advertising**, shown by Google AdMob, with your consent where the law requires it.
+  3. **An optional account**, if you choose to sign in with Google.
+  4. **Services you connect yourself**: your Google Drive, and any Custom Repository website you add.
+- You can use the App without an account.
 
-For a better experience, while using my Service, I may require you to provide me with certain personally identifiable information, including but not limited to location, screen resolution, device model, and operating system version. The information that I request will be retained on your device and is not collected by me in any way.
+The sections below explain each case.
 
-The app does use third party services that may collect information used to identify you.
+## Information that stays on your device
 
-Link to privacy policy of third party service providers used by the app:
+The App stores these things **only on your device**, in the folder you choose as the Working Directory and in the App's private storage:
 
-- [Google Play Services](https://www.google.com/policies/privacy/)
-- [AdMob](https://support.google.com/admob/answer/6128543?hl=en)
-- [Google Analytics for Firebase](https://firebase.google.com/policies/analytics)
-- [Firebase Crashlytics](https://firebase.google.com/support/privacy/)
-- [Sentry](https://sentry.io/privacy/)
+- the images and videos you import, and their tags and settings,
+- your playlists, tasks, profiles, scenes, themes and preferences,
+- task and engine logs (kept for a few days),
+- keys or passwords you enter for a Custom Repository, encrypted with a key that never leaves your device.
 
-**Log Data**
+I cannot see, access or recover any of this. If you uninstall the App, Android may delete it. Make a backup first (see [Backup & Restore](../guides/backup-restore.md)).
 
-I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol ("IP") address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
+## Information that leaves your device
 
-**Cookies**
+### 1. Crash and error reports (Sentry)
 
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
+When the App crashes or hits an error, it sends a report to **Sentry**, a service that I use to find and fix bugs. A report can include:
 
-This Service does not use these "cookies" explicitly. However, the app may use third party code and libraries that use "cookies" to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse the cookies, you may not be able to use some portions of this Service.
+- technical details: device model, Android version, App version, memory and performance data, error messages and logs,
+- your IP address,
+- a screenshot and a description of the App screen at the moment of the error, and, for some sessions, a replay of recent App screens. Text and images in replays are masked by default, but a screenshot can show what was on the App screen, which may include your wallpapers,
+- the steps you took in the App before the error (for example which buttons you tapped).
 
-**Service Providers**
+I use these reports **only** to fix problems and improve stability. They are kept for a limited time and are deleted automatically by Sentry's retention rules. See [Sentry's Privacy Policy](https://sentry.io/privacy/).
 
-I may employ third-party companies and individuals due to the following reasons:
+### 2. Advertising (Google AdMob) {#advertising}
 
-- To facilitate my Service;
-- To provide the Service on my behalf;
-- To perform Service-related services; or
-- To assist me in analyzing how my Service is used.
+The free App shows ads from **Google AdMob**. To show and measure ads, and to prevent fraud, Google may collect your device's advertising ID, IP address, approximate location derived from the IP address, device information, and how you interact with ads.
 
-I want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on my behalf. However, they are obligated not to disclose or use the information for any other purpose.
+- Where the law requires it (for example in the European Economic Area, the United Kingdom and Switzerland), the App asks for your **consent** before ads are personalized, using Google's consent tool. You can change your choice at any time in **Settings** > **Privacy & Permissions** > **Ad Privacy Options**.
+- You can reset or delete your advertising ID in your Android settings.
+- Ads are never shown inside the live wallpaper itself.
 
-**Security**
+See [How Google uses information from apps that use its services](https://policies.google.com/technologies/partner-sites).
 
-I value your trust in providing your Personal Information, thus I striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
+### 3. Optional account (Google Sign-In and Firebase)
 
-**Links to Other Sites**
+You can sign in with your Google Account. Signing in is **optional**. If you sign in:
 
-This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+- **Google Sign-In** and **Firebase Authentication** confirm who you are.
+- **Cloud Firestore** (a Firebase database that I run) stores a small user profile: your account ID, email address, display name and profile photo link, your App limits and unlocked features, and a record of your purchases.
 
-**Children's Privacy**
+I use this profile only to run your account, apply your purchases and features, and answer support requests. If you sign out, the profile stays until you ask me to delete it (see [Your choices and rights](#your-choices-and-rights)).
 
-These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from my servers. If you are a parent or guardian and you are aware that your child has provided me with personal information, please contact me so that I will be able to do necessary actions.
+### 4. Purchases (Google Play)
 
-**Modifying Your Personal Information**
+Purchases are handled by **Google Play**. I do not receive your payment details. I receive a record of what you bought (product, date, order status) so the App can unlock it.
 
-You HAVE the right to request to delete any of your personal information in my possession by sending an email to wahyupamengas.developer@gmail.com (with your expressed request). I will generally delete your information within 30 days of receipt of your request.
+### 5. Google Drive (if you connect it)
 
-**Changes to This Privacy Policy**
+If you connect a Google Drive, the App uploads and downloads your wallpapers, metadata and backups **directly between your device and your own Drive**, with the access you grant. I do not receive this data, and I have no access to your Drive. You can remove the App's access at any time in your [Google Account settings](https://myaccount.google.com/permissions).
 
-I may update this Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.
+### 6. Custom Repositories (if you add one)
 
-This policy is effective as of January 15, 2021.
+If you add a Custom Repository, the App connects **directly** to the website you entered, to search and download pictures. That website receives your requests, your IP address, the App's user agent and the login details you entered for it. That website is run by someone else, under its own privacy policy. I do not receive these requests.
 
-**Any Question? Contact Me!**
+### 7. Links and Google Play Services
 
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me by sending an email to wahyupamengas.developer@gmail.com.
+When you open a link (for example to this guide or a picture's source page), it opens in your browser or another app, under that website's own policy. The App also relies on **Google Play Services**, which works under [Google's Privacy Policy](https://policies.google.com/privacy).
 
-**Terms & Conditions**
+## Permissions
 
-You can read the Terms & Conditions [on this page](terms_conditions).
+The App asks only for the permissions below. All of them are optional. You can turn them off at any time in Android settings or in **Settings** > **Privacy & Permissions** > **Permissions Manager**.
+
+| Permission | Why the App uses it | Leaves your device? |
+|---|---|---|
+| **Location (Precise)** | Android shows the name (SSID) of your Wi-Fi network only to apps with location permission. Tasks use the Wi-Fi name, for example "change the wallpaper when I connect to my home Wi-Fi". The App does **not** read your GPS position. See [Location Access](location_access.md). | No |
+| **Nearby Wi-Fi devices** | Same purpose as above, on newer Android versions. | No |
+| **Microphone** | The audio visualizer reads the **sound levels** of what your phone is playing, so its bars move with your music. Android calls this "microphone access". Nothing is recorded, stored or sent. | No |
+| **Alarms & Reminders** | Lets tasks run at exact times. | No |
+| **Notifications** | Shows the progress of cloud transfers and other background work. | No |
+| **Storage / media** (older Android versions) | Reads the files you choose to import, and saves exports to your Downloads folder. | No |
+
+## Why I may use your information (legal bases)
+
+If the EU or UK General Data Protection Regulation (GDPR) applies to you, I rely on:
+
+- **your consent** for personalized ads, and for the microphone and location permissions;
+- **performing our agreement** (the Terms) to run your optional account and your purchases;
+- **my legitimate interest** in keeping the App working and secure, for crash and error reports.
+
+## Sharing
+
+I do not sell or rent your information. I share it only:
+
+- with the service providers named above (Sentry, Google AdMob, Google Firebase, Google Play), who process it to provide their service;
+- if the law requires it, or to protect the rights and safety of users or of the developer.
+
+These providers may process information in countries other than yours, including the United States, under their own safeguards (such as standard contractual clauses).
+
+## How long information is kept
+
+- Information on your device: until you delete it or uninstall the App.
+- Crash and error reports: for a limited time, then deleted automatically by Sentry.
+- Account profile and purchase records: while your account exists. When you ask me to delete your account, I delete the profile within 30 days. Purchase records may be kept longer where tax or accounting law requires it.
+- Advertising data: as described in Google's policies.
+
+## Your choices and rights
+
+- **Use the App without an account.** Most features work without signing in.
+- **Control ads.** Change your consent in **Ad Privacy Options**, or reset your advertising ID in Android settings.
+- **Control permissions** in Android settings at any time.
+- **Remove Google Drive access** in your Google Account settings.
+- **Access, correct or delete your data.** Email **wahyupamengas.developer@gmail.com** from the address of your account, with the subject "Data request". I will answer within 30 days. To delete your account, write "Delete my account".
+- Depending on where you live (for example under the GDPR, the UK GDPR, or the California Consumer Privacy Act), you may also have the right to object to or restrict processing, to data portability, and to complain to your local data protection authority.
+
+## Children
+
+The App is **not directed at children**. It is not meant for anyone under 13, or under the minimum age for consent to data processing in your country (for example 16 in some EU countries). Users can import any media they like, so some content in the App may not suit children. I do not knowingly collect information from children. If you believe a child has given me information, contact me and I will delete it.
+
+## Security
+
+I use reasonable measures to protect information: connections to the services above are encrypted, and saved repository keys are encrypted on your device. No method of storage or transfer is 100% secure, so I cannot guarantee absolute security. Keep your device and your Google Account secure.
+
+## Changes to this policy
+
+I may update this policy when the App changes. I will post the new version on this page and change the "Last updated" date. If a change is important, I will also announce it in the App's changelog.
+
+## Contact
+
+Questions or requests about privacy: **wahyupamengas.developer@gmail.com**.
