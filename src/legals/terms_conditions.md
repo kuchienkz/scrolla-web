@@ -90,7 +90,7 @@ You can stop using the App at any time by uninstalling it. I may suspend or end 
 
 ## 14. Governing law
 
-These Terms are governed by the laws of **[COUNTRY]**, without regard to its conflict-of-law rules. Mandatory consumer protection laws of the country where you live still apply.
+These Terms are governed by the laws of the **Republic of Indonesia**, without regard to its conflict-of-law rules. Mandatory consumer protection laws of the country where you live still apply.
 
 ## 15. Changes to these Terms
 

@@ -114,6 +114,8 @@ If the EU or UK General Data Protection Regulation (GDPR) applies to you, I rely
 - **performing our agreement** (the Terms) to run your optional account and your purchases;
 - **my legitimate interest** in keeping the App working and secure, for crash and error reports.
 
+I am based in Indonesia, so I also follow Indonesia's **Personal Data Protection Law** (Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi, "UU PDP"). It allows the same bases: consent, performing an agreement, and legitimate interest. Under the UU PDP you can, among other things, get information about and access to your data, correct it, ask me to delete it, withdraw your consent, and object to or limit its processing. To use these rights, see [Your choices and rights](#your-choices-and-rights). If a data breach affects your information, I will tell you as the UU PDP requires.
+
 ## Sharing
 
 I do not sell or rent your information. I share it only:
@@ -137,7 +139,7 @@ These providers may process information in countries other than yours, including
 - **Control permissions** in Android settings at any time.
 - **Remove Google Drive access** in your Google Account settings.
 - **Access, correct or delete your data.** Email **wahyupamengas.developer@gmail.com** from the address of your account, with the subject "Data request". I will answer within 30 days. To delete your account, write "Delete my account".
-- Depending on where you live (for example under the GDPR, the UK GDPR, or the California Consumer Privacy Act), you may also have the right to object to or restrict processing, to data portability, and to complain to your local data protection authority.
+- Depending on where you live (for example under the GDPR, the UK GDPR, the UU PDP, or the California Consumer Privacy Act), you may also have the right to object to or restrict processing, to data portability, and to complain to your local data protection authority.
 
 ## Children
 
