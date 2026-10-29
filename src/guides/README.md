@@ -46,6 +46,10 @@ Step-by-step tutorials for **Scrolla Wallpaper**. They follow the **3.0 Beta** r
 - [Backup & Restore](backup-restore.md): keep your setup safe and move it to a new device.
 - [Working Directory](configurations/working-directory.md): where Scrolla keeps your files.
 
+## Scrolla Pro
+
+- [Scrolla Pro](scrolla-pro.md): no ads and unlimited playlists and tasks; slot limits, locked items, restore and cancel.
+
 ## Reference
 
 - [Settings Reference](settings.md): every option in the Settings tab.

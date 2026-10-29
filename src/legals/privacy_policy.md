@@ -1,6 +1,6 @@
 ---
 icon: pen-to-square
-date: 2026-10-23
+date: 2026-10-29
 category:
   - Legal
 tag:
@@ -11,7 +11,7 @@ tag:
 
 # Privacy Policy
 
-**Last updated: October 23, 2026**
+**Last updated: October 29, 2026**
 
 This Privacy Policy explains what happens to your information when you use the **Scrolla Wallpaper** app for Android (the "App"). Please read it together with the [Terms and Conditions](terms_conditions.md).
 
@@ -82,13 +82,22 @@ See [How Google uses information from apps that use its services](https://polici
 You can sign in with your Google Account. Signing in is **optional**. If you sign in:
 
 - **Google Sign-In** and **Firebase Authentication** confirm who you are.
-- **Cloud Firestore** (a Firebase database that I run) stores a small user profile: your account ID, email address, display name and profile photo link, your App limits and unlocked features, and a record of your purchases.
+- **Cloud Firestore** (a Firebase database that I run) stores a small user profile: your account ID, email address, display name and profile photo link. If you buy Scrolla Pro, it also stores your Pro status and your purchase history (see below).
 
-I use this profile only to run your account, apply your purchases and features, and answer support requests. If you sign out, the profile stays until you ask me to delete it (see [Your choices and rights](#your-choices-and-rights)).
+I use this profile only to run your account, apply your purchases, and answer support requests. If you sign out, the profile stays until you ask me to delete it (see [Your choices and rights](#your-choices-and-rights)).
 
-### 4. Purchases (Google Play)
+### 4. Purchases (Google Play and Scrolla Pro) {#purchases}
 
-Purchases are handled by **Google Play**. I do not receive your payment details. I receive a record of what you bought (product, date, order status) so the App can unlock it.
+Scrolla Pro is a subscription sold through **Google Play**. Buying it needs the optional account above. I never receive your payment details.
+
+- **Sent to Google Play:** with each purchase, the App sends a **hashed account ID**: a one-way SHA-256 code made from your Scrolla account ID. It contains no name or email address. Google Play stores it with the purchase, so a purchase can only unlock the account that made it.
+- **Checked by my server:** the App sends the purchase token that Google Play gives it to my server (Firebase Cloud Functions). The server asks the **Google Play Developer API** about the purchase. Google Play also tells the server about renewals, cancellations and refunds.
+- **Stored in Cloud Firestore:** your Pro status (plan, subscription state, end date, whether it renews), your purchase history (order ID, plan, price, currency, state, date), and the link between a purchase token and your account. Only my server writes these records. You can read your own Pro status and history in the App.
+- **Stored on your device:** your last known Pro status, so the App works offline, and the end time of a "no ads until midnight" reward.
+
+I use this information only to give you Pro, to stop one purchase from unlocking more than one account, and to answer support requests. Google Play processes your payment under [Google's Privacy Policy](https://policies.google.com/privacy).
+
+The rewarded ad ("watch an ad, no ads until midnight") is shown by Google AdMob, as described under [Advertising](#advertising).
 
 ### 5. Google Drive (if you connect it)
 
@@ -129,7 +138,7 @@ I am based in Indonesia, so I also follow Indonesia's **Personal Data Protection
 
 I do not sell or rent your information. I share it only:
 
-- with the service providers named above (Sentry, Google AdMob, Google Firebase, Google Play), who process it to provide their service;
+- with the service providers named above (Sentry, Google AdMob, Google Firebase and Cloud Functions, Google Play), who process it to provide their service;
 - if the law requires it, or to protect the rights and safety of users or of the developer.
 
 These providers may process information in countries other than yours, including the United States, under their own safeguards (such as standard contractual clauses).
@@ -138,7 +147,7 @@ These providers may process information in countries other than yours, including
 
 - Information on your device: until you delete it or uninstall the App.
 - Crash and error reports: for a limited time, then deleted automatically by Sentry. Reports sent before you chose **Off** stay until then; to have them deleted sooner, contact me.
-- Account profile and purchase records: while your account exists. When you ask me to delete your account, I delete the profile within 30 days. Purchase records may be kept longer where tax or accounting law requires it.
+- Account profile, Pro status and purchase records: while your account exists. When you ask me to delete your account, I delete it within 30 days, and with it your profile, your Pro status, your purchase history and its purchase links. Deleting the account does not cancel a subscription: cancel it in Google Play first. Google Play keeps its own order records under Google's policies and as tax and accounting law requires.
 - Advertising data: as described in Google's policies.
 
 ## Your choices and rights

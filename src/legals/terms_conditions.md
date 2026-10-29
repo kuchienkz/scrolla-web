@@ -1,6 +1,6 @@
 ---
 icon: pen-to-square
-date: 2026-10-23
+date: 2026-10-29
 category:
   - Legal
 tag:
@@ -10,7 +10,7 @@ tag:
 
 # Terms and Conditions
 
-**Last updated: October 23, 2026**
+**Last updated: October 29, 2026**
 
 These Terms and Conditions (the "Terms") are an agreement between you and **Kuchienkz** ("I", "me", "the developer") about your use of the **Scrolla Wallpaper** app for Android (the "App"). By installing or using the App, you agree to these Terms and to the [Privacy Policy](privacy_policy.md). If you do not agree, do not use the App.
 
@@ -54,6 +54,9 @@ You can use the App without an account. If you sign in with Google, you must kee
 
 - The free App shows ads from Google AdMob. See the [Privacy Policy](privacy_policy.md#advertising).
 - Paid features and items are sold through **Google Play** and its billing system. Prices are shown before you pay. Refunds follow [Google Play's refund policies](https://support.google.com/googleplay/answer/2479637) and the consumer laws that apply to you.
+- **Scrolla Pro** is a subscription (monthly or yearly). It removes ads and the playlist and task limits. It belongs to the Scrolla account you were signed in with when you bought it, and works on every device where you sign in with that account.
+- A subscription **renews automatically** at the price shown until you cancel it. A free trial, when offered, becomes a paid subscription when it ends unless you cancel before. You can cancel at any time in Google Play; Pro stays until the end of the period you paid for.
+- Without Pro, items above the free limits are locked, not deleted. See [Scrolla Pro](../guides/scrolla-pro.md#locked-items).
 - Features may change over time. If I remove a paid feature that you bought, I will try to offer a fair replacement or a refund where the law requires it.
 
 ## 7. Beta software
