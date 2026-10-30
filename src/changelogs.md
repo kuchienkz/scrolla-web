@@ -15,6 +15,7 @@ The 3.0 Beta is available on Google Play to Beta testers. Some users may not hav
 - **Themes**: built-in and custom app themes per profile, a second theme for dark mode, and pictures or your wallpaper behind the pages. See [App Themes](guides/themes.md).
 - **Home Screen Widget** and a **Next wallpaper** Quick Settings tile. See [Home Screen Widget](guides/home-screen-widget.md).
 - **Custom Repositories**: search and download from public wallpaper APIs. See [Custom Repositories](guides/custom-repositories.md).
+- **Audio sync calibration**: measure the sound delay of each output (phone speaker, Bluetooth headphones) so the visualizer bars match the sound. See [Calibrate audio sync](guides/scenes.md#calibrate-audio-sync).
 - **Video sound**: video wallpapers can play their audio, with volume and fade. See [Wallpaper Settings](guides/wallpaper-settings.md#audio).
 - **Loading and Fallback wallpapers**: choose what shows while wallpapers load, or when none is available.
 - **Cloud wallpapers** bring their settings and scene, and you can keep your own version on one device.

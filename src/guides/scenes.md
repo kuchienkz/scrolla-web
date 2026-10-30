@@ -136,8 +136,32 @@ To react to music from any app, the visualizer reads the sound levels of what yo
 :::
 
 - **Style**: **Bars** (number, spacing, height, corner radius, color), **Shape** (**Radial**: bars around a circle, its **Diameter** and **Direction**), **Mirror** (vertical, and horizontal **From middle** or **From edge**).
-- **Audio**: shows whether the visualizer can hear your music. Tap **Allow** to grant access. Turn on **Test signal** to see the bars move without music (preview only). **Sensitivity** has **Dynamic range**, **Punch**, **Treble boost** and the **Frequency range** (**Full**, **Bass**, **Vocals** or **Treble**). **Sync** sets a delay, for example for Bluetooth headphones. **When audio cannot be read**: **Hidden** or **Simulated motion**.
+- **Audio**: shows whether the visualizer can hear your music. Tap **Allow** to grant access. Turn on **Test signal** to see the bars move without music (preview only). **Sensitivity** has **Dynamic range**, **Punch**, **Treble boost** and the **Frequency range** (**Full**, **Bass**, **Vocals** or **Treble**). **Calibrate audio sync** lines the bars up with the sound. See [Calibrate audio sync](#calibrate-audio-sync). **When audio cannot be read**: **Hidden** or **Simulated motion**.
 - **Animation**: **Fade in**, **Fade out** and **Stay visible through silence**.
+
+### Calibrate audio sync {#calibrate-audio-sync}
+
+Sound takes time to reach your ears. Bluetooth headphones can add almost half a second. Calibration measures this delay and moves the bars to match the sound.
+
+The delay is saved for each output: the phone speaker, and each pair of headphones or speaker. It applies to all visualizers. The app uses the delay of the output that plays.
+
+Open it from the visualizer's **Audio** panel > **Calibrate audio sync**, or from **Settings** > **Playback** > **Audio Visualizer** > **Calibrate Audio Sync**.
+
+1. Connect the output you want to calibrate, and set a comfortable volume.
+2. Pause other audio. It disturbs the measurement.
+3. Tap **Measure**. A test sound plays for about 20 seconds.
+4. The app shows **Measured** and puts the slider there. Watch the bars: they must flash with the clicks.
+5. If needed, move the slider, or tap **-** (**Earlier**) and **+** (**Later**). Each step is 5 ms, from -300 to +1000 ms. If you are not sure, choose slightly early: late bars stand out more.
+6. Tap **Save**.
+
+- **Could not measure reliably**: turn the volume up, pause other audio and tap **Measure again**. Or set the delay by eye with the slider.
+- **The audio output changed**: you connected or disconnected an output during the test. Calibrate the new output, or switch back.
+- **No audio access**: without [microphone access](#audio-visualizer), the calibration covers only the sound of video wallpapers.
+- **Diagnostics** shows the measured values. Tap **Copy** to add them to a bug report.
+
+::: info Not in backups
+Calibration results stay on this phone. They are not part of your [backups](backup-restore.md), because the delay depends on the phone and its audio hardware. After you restore a backup on a new phone, calibrate again.
+:::
 
 ## Shapes
 

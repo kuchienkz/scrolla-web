@@ -40,6 +40,7 @@ Not in a backup:
 - Temporary (Ephemeral) wallpapers of Dynamic Playlists. The playlists download them again.
 - **Device overrides** of cloud wallpapers. See [Cloud Storage](cloud-storage.md#backups).
 - The keys of Custom Repositories, and the downloads of the cloud cache.
+- **Audio sync calibration** of the visualizer. The delay depends on the phone and its audio hardware, so calibrate again on a new phone. See [Calibrate audio sync](scenes.md#calibrate-audio-sync).
 
 ## Backup options
 

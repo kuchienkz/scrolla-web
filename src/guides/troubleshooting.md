@@ -81,6 +81,11 @@ Some phones stop live wallpapers after a restart, or stop apps in the background
 - The bars stay hidden until music plays. Turn on **Test signal** to check the look without music.
 - Some phones give no sound levels for some outputs. Set **When audio cannot be read** to **Simulated motion** to show a generic rhythm instead.
 
+## The visualizer is out of sync with the sound
+
+- Bluetooth headphones and speakers delay the sound. [Calibrate audio sync](scenes.md#calibrate-audio-sync) for each output you use.
+- After you restore a backup on a new phone, calibrate again. Calibration results are not in backups.
+
 ## A video wallpaper has no sound
 
 Video sound is off by default. Turn on **Audio** > **Enabled** in the wallpaper's settings. See [Wallpaper Settings](wallpaper-settings.md#audio).

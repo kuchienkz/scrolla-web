@@ -53,6 +53,11 @@ On Android 10 and newer, the app can only read the Wi-Fi name when **Location (G
 - **Scene**: layers, clock, audio visualizer and shapes around your wallpapers, for the profile you are editing. See [Scenes](scenes.md).
 - **Loading Wallpaper** and **Fallback Wallpaper**: what shows while wallpapers are being prepared, and when no wallpaper is available. See [Wallpaper Settings](wallpaper-settings.md#loading-and-fallback-wallpapers).
 
+### Audio Visualizer
+
+- **Best Sampling Rate**: the visualizer reads the music about 47 times per second, so short beats are not missed. Off: 20 times per second, which uses slightly less battery.
+- **Calibrate Audio Sync**: lines the bars up with the sound of the current output. It shows the output and its saved delay. See [Calibrate audio sync](scenes.md#calibrate-audio-sync).
+
 ### Rendering
 
 **Frame Rate Limit**: a lower frame rate uses less battery and makes the phone less warm.
