@@ -119,7 +119,7 @@ By default a component uses the same position in both orientations. To give it i
 
 ## Text and variables {#text}
 
-A text component shows any text. It can also show live values, such as the time or your battery level. These live values are called **variables**.
+A text component shows any text. It can also show live values, such as the time or your battery level. These live values are called [variables](variables.md).
 
 To add a clock, tap **Add** > **Presets** > **Clock**. To add your own text, tap **Add** > **Text**.
 
@@ -137,34 +137,11 @@ A text with a **Width** in [Position](#position) wraps its lines to that width. 
 ### Insert a variable
 
 1. In the **Text** field, put the cursor where the value must go.
-2. Tap **Insert variable**.
-3. Pick a variable. Some variables have options: tap the variable, set the options, then tap **Insert**.
+2. Tap **Insert variable** and pick a variable, for example **Time** or **Battery level**.
 
-The variable shows in the field as a code in square brackets, for example `$[time]`. The preview shows the live value at once.
+The variable shows in the field as a code in square brackets, for example `$[time]`. The preview shows the live value at once. A wrong code shows in red, with the reason below it.
 
-| Variable | Shows | Options |
-|---|---|---|
-| **Time** `$[time]` | The time. | **format** (for example `14:05`, `2:05 PM`; **System 12 / 24 h** by default), **seconds** |
-| **Date** `$[date]` | The date. | **format** (for example `Mon, 2 Nov`, `2 November 2026`) |
-| **AM / PM** `$[ampm]` | AM or PM. | |
-| **Battery level** `$[battery.level]` | The battery level in %. | |
-| **Charging** `$[battery.charging]` | Text while charging, and text while not. | **on**, **off** |
-| **Volume** `$[volume]` | The volume in %. | **stream** (media, ring, alarm, notification) |
-| **Network type** `$[network.type]` | Wi-Fi, Mobile, Ethernet, VPN or Offline. | |
-| **Network name** `$[network.name]` | The Wi-Fi name, or the mobile carrier. | |
-| **Airplane mode** `$[airplane]` | On or Off. | **on**, **off** |
-
-Every variable also has **Text when unavailable**: what shows when the value cannot be read, for example while offline.
-
-::: tip Example
-`Battery $[battery.level]%$[battery.charging(on:" ⚡", off:"")]` shows **Battery 85% ⚡** while charging.
-:::
-
-::: info Location permission for the Wi-Fi name
-Android gives the Wi-Fi name only to apps with location access, and only while location is on. Without it, **Network name** is greyed out in the list. Tap **Allow** to open the **Permissions Manager**. The location is never read or stored.
-:::
-
-If a variable code is wrong, it shows in red in the field, with the reason below it. On the wallpaper, it shows as you typed it.
+All variables, their options and the time and date formats are on the [Variables](variables.md) page.
 
 ::: info Clocks from an older version
 A digital clock that you made before this version becomes a text component with `$[time]`. It looks the same as before.

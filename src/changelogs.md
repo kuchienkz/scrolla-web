@@ -12,7 +12,7 @@ The 3.0 Beta is available on Google Play to Beta testers. Some users may not hav
 ### New
 
 - **Scenes**: text, an audio visualizer and shapes on top of your wallpaper, edited in a live Scene Editor. Wallpapers can have their own scene. See [Scenes](guides/scenes.md).
-- **Text and variables**: any text in your own font, size, color, shadow and outline, with live values such as the time, the date, the battery level, the volume and the network. The digital clock is now a text component; your clocks keep their look. See [Text and variables](guides/scenes.md#text).
+- **Text and variables**: any text in your own font, size, color, shadow and outline, with live values such as the time, the date, the battery level, the volume and the network. The digital clock is now a text component; your clocks keep their look. See [Text and variables](guides/scenes.md#text) and [Variables](guides/variables.md).
 - **Presets**: add a ready-made **Clock**, **Clock and date** or **Battery**, or save a layer as your own preset. See [Presets](guides/scenes.md#presets).
 - **Replace groups**: a wallpaper's own components can hide the profile scene's components of the same group, for example its own clock instead of the profile clock. See [Replace groups](guides/scenes.md#replace-groups).
 - **Scrolla Pro**: an optional subscription without ads and with unlimited playlists and tasks. During the beta, playlists and tasks are unlimited for everyone. See [Scrolla Pro](guides/scrolla-pro.md).
