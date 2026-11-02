@@ -1,7 +1,7 @@
 ---
 icon: crown
 order: 21
-date: 2026-10-29
+date: 2026-11-02
 category:
   - Guides
 tag:
@@ -24,6 +24,22 @@ Scrolla is free. **Scrolla Pro** is an optional subscription for people who want
 
 - Dynamic playlists count as playlists. The count covers all profiles (Home and Lock Screen).
 - Signing in is free and already gives you more slots. Open your user profile and sign in with Google.
+
+## During the beta {#beta}
+
+While Scrolla is in beta, everyone gets **unlimited playlists and tasks** for free. Ads stay on. The Pro page and your user profile show **Free during the beta**.
+
+You can still subscribe to Pro during the beta. Pro then removes the ads. When the stable version comes, the free beta slots end, and your Pro stays.
+
+## Free Pro offers {#free-pro-offers}
+
+From time to time, Scrolla gives free Pro for a limited time: to everyone (a **promotion**), or to one account (a **gift**).
+
+- Free Pro gives **unlimited playlists and tasks**. Ads stay on.
+- The Pro page shows the offer and when it ends. Your user profile shows **Free Pro promotion** or **Pro gift**.
+- The offer starts and ends on its own. You do not need to update the app.
+- When the offer ends, items above your free limit are [locked](#locked-items). Nothing is deleted.
+- To remove the ads during an offer, subscribe to Pro.
 
 ## Get Pro
 
@@ -84,6 +100,8 @@ A playlist with the Locked badge.
 ## Questions
 
 **Does Pro unlock other features?** No. Pro removes ads and the slot limits. All other features are free for everyone.
+
+**I have free Pro but I still see ads.** Free Pro (the beta, a promotion or a gift) keeps the ads. Only a Pro subscription removes them.
 
 **I paid but I still see ads.** Check that you are signed in with the account you bought Pro with, and that the phone was online at least once since. Then tap **Restore purchases**. If it still does not work, email **wahyupamengas.developer@gmail.com**.
 

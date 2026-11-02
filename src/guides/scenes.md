@@ -1,19 +1,21 @@
 ---
 icon: shapes
 order: 11
-date: 2026-10-23
+date: 2026-11-02
 category:
   - Guides
 tag:
   - scenes
   - clock
+  - text
+  - presets
   - visualizer
   - customization
 ---
 
-# Scenes (Clock, Visualizer, Shapes)
+# Scenes (Text, Clock, Visualizer, Shapes)
 
-A **scene** puts extra things on top of your live wallpaper: a **digital clock**, an **audio visualizer** that moves with your music, and **shapes**. These things are called **components**. Components sit in **layers**, in front of or behind the wallpaper.
+A **scene** puts extra things on top of your live wallpaper: **text** (a clock, the date, your battery level or any words), an **audio visualizer** that moves with your music, and **shapes**. These things are called **components**. Components sit in **layers**, in front of or behind the wallpaper.
 
 There are two kinds of scene:
 
@@ -47,7 +49,7 @@ The dock is the button bar at the bottom of the editor (on the right side in lan
 | Button | What it does |
 |---|---|
 | **Layers** | Opens the list of layers and components. |
-| **Add** | Adds a **Digital clock**, an **Audio visualizer** or a **Shape**. |
+| **Add** | Adds a **Preset** (for example **Clock**), **Text**, an **Audio visualizer** or a **Shape**. See [Presets](#presets). |
 | **Preview wallpaper** | Picks another library wallpaper to preview the scene with. Profile scenes only. |
 | **Play** / **Pause** | Plays or pauses a video or animated preview wallpaper. |
 | **Show the whole wallpaper** | Zooms out to show the whole wallpaper, with your screen as a box. Wallpaper scenes only. |
@@ -115,17 +117,69 @@ Tap **Orientation** in the dock to preview the other orientation.
 
 By default a component uses the same position in both orientations. To give it its own position in landscape, open **Position** > **Orientation** and turn on **Own landscape layout**. Use **Copy layout** and **Paste** to copy a position between components or orientations. In the dock, **Orientation** > **Copy all layouts to landscape** (or **to portrait**) copies every component at once.
 
-## Digital clock
+## Text and variables {#text}
 
-Tap **Style** to change the clock:
+A text component shows any text. It can also show live values, such as the time or your battery level. These live values are called **variables**.
 
-| Setting | What it does |
+To add a clock, tap **Add** > **Presets** > **Clock**. To add your own text, tap **Add** > **Text**.
+
+Tap **Style** to change the text:
+
+| Group | Settings |
 |---|---|
-| **Show seconds** | Adds seconds. |
-| **System** / **12-hour** / **24-hour** | The time format. **System** follows your phone. |
-| **Font size**, **Weight** | The size and thickness of the digits. |
-| **Shadow** | A soft shadow, so the clock stays readable on light pictures. |
-| **Color** | The color, with transparency. |
+| **Text** | The text, and **Uppercase**. |
+| **Font** | **Family** (each font shows in its own style), **Font size**, **Weight**, **Italic**, **Same width digits** (numbers do not shift while they change). |
+| **Lines** | Alignment, **Line height**, **Letter spacing**. |
+| **Color & effects** | **Color**, **Shadow** (color, blur, offset), **Outline** (color, width). |
+
+A text with a **Width** in [Position](#position) wraps its lines to that width. Without a width, it takes the size of its text.
+
+### Insert a variable
+
+1. In the **Text** field, put the cursor where the value must go.
+2. Tap **Insert variable**.
+3. Pick a variable. Some variables have options: tap the variable, set the options, then tap **Insert**.
+
+The variable shows in the field as a code in square brackets, for example `$[time]`. The preview shows the live value at once.
+
+| Variable | Shows | Options |
+|---|---|---|
+| **Time** `$[time]` | The time. | **format** (for example `14:05`, `2:05 PM`; **System 12 / 24 h** by default), **seconds** |
+| **Date** `$[date]` | The date. | **format** (for example `Mon, 2 Nov`, `2 November 2026`) |
+| **AM / PM** `$[ampm]` | AM or PM. | |
+| **Battery level** `$[battery.level]` | The battery level in %. | |
+| **Charging** `$[battery.charging]` | Text while charging, and text while not. | **on**, **off** |
+| **Volume** `$[volume]` | The volume in %. | **stream** (media, ring, alarm, notification) |
+| **Network type** `$[network.type]` | Wi-Fi, Mobile, Ethernet, VPN or Offline. | |
+| **Network name** `$[network.name]` | The Wi-Fi name, or the mobile carrier. | |
+| **Airplane mode** `$[airplane]` | On or Off. | **on**, **off** |
+
+Every variable also has **Text when unavailable**: what shows when the value cannot be read, for example while offline.
+
+::: tip Example
+`Battery $[battery.level]%$[battery.charging(on:" ⚡", off:"")]` shows **Battery 85% ⚡** while charging.
+:::
+
+::: info Location permission for the Wi-Fi name
+Android gives the Wi-Fi name only to apps with location access, and only while location is on. Without it, **Network name** is greyed out in the list. Tap **Allow** to open the **Permissions Manager**. The location is never read or stored.
+:::
+
+If a variable code is wrong, it shows in red in the field, with the reason below it. On the wallpaper, it shows as you typed it.
+
+::: info Clocks from an older version
+A digital clock that you made before this version becomes a text component with `$[time]`. It looks the same as before.
+:::
+
+## Presets {#presets}
+
+A **preset** is a saved set of components with their settings. Tap **Add** > **Presets** to add one.
+
+- **Built-in presets**: **Clock**, **Clock and date**, **Battery**.
+- **Your presets**: open a layer in **Layers**, then tap **Save as preset**. All components of the layer go into the preset. You can give them a [replace group](#replace-groups) at the same time.
+
+Adding a preset adds copies of its components next to the selected component. Later changes to the preset do not change scenes that already use it.
+
+To rename or delete one of your presets, tap **⋮** next to it in the preset list. Built-in presets cannot be changed. Your presets are part of your [backups](backup-restore.md).
 
 ## Audio visualizer
 
@@ -186,9 +240,20 @@ To draw your own shape, open **Free transform** and tap **Edit points**.
 A wallpaper scene belongs to one wallpaper. It comes and goes with that wallpaper.
 
 - The profile scene shows faded in the preview, so you can place things around it.
-- **Style** > **Overwrite same component**: while this wallpaper is shown, the profile scene's components of the same kind are hidden. For example, a wallpaper with its own clock hides the profile clock.
+- **Replace group**: hides profile scene components while this wallpaper shows. See [Replace groups](#replace-groups).
 - The **⋮** menu has **Remove scene**. For a cloud wallpaper it has **Reset to cloud scene** and **Update cloud scene**. See [Cloud Storage](cloud-storage.md#change-cloud-wallpapers).
 - A scene made with **Override Scene** in a playlist applies only in that playlist. **Remove scene** there brings back the wallpaper's own scene.
+
+## Replace groups {#replace-groups}
+
+A **replace group** is a name that you give to components, for example `clock`. While a wallpaper scene shows a component of a group, the profile scene's components of the same group are hidden.
+
+For example: your profile scene has a clock in the group `clock`. One wallpaper has its own clock, also in the group `clock`. While that wallpaper shows, only its own clock shows.
+
+- Set the group in **Style** > **Replace group**. Type a name, or tap one of the names that you already use.
+- The **Clock** presets use the group `clock`. A new audio visualizer uses the group `visualizer`.
+- In a wallpaper scene, the panel tells you how many profile components the group hides.
+- Groups have no effect inside one scene.
 
 ## Save and leave
 

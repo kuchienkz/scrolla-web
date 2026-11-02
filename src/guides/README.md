@@ -30,7 +30,7 @@ Step-by-step tutorials for **Scrolla Wallpaper**. They follow the **3.0 Beta** r
 
 - [Wallpaper Settings](wallpaper-settings.md): Screen Fit, Base Color, Pre-Transform, 3D and where settings apply.
 - [Animations](animations.md): Enter, Loop and Exit animations, and automatic IFTT rules.
-- [Scenes (Clock, Visualizer, Shapes)](scenes.md): put a clock, music bars and shapes on your wallpaper.
+- [Scenes (Text, Clock, Visualizer, Shapes)](scenes.md): put text with live values (time, date, battery), music bars and shapes on your wallpaper; presets and replace groups.
 
 ## Screens, automation and controls
 
