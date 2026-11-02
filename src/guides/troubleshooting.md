@@ -109,7 +109,16 @@ They have the **NSFW** tag. Change **Settings** > **Appearance & Content** > **N
 
 ## Report a bug
 
-This app is still in development. When you find a bug, please email the developer with:
+This app is still in development. When you are signed in, send a report in the app:
+
+1. Open your **User Profile** (tap your picture at the top of **Settings**).
+2. Under **Support**, tap **Bug Reports**, then **Report a Bug**.
+3. Enter a **Title** and a **Description**. Keep **Include app and device details** on.
+4. Tap **Send Report**.
+
+**Bug Reports** lists your reports with their status: **Open**, **In Progress**, **Resolved**, **Won't Fix** or **Withdrawn**. Tap a report to see the developer's reply. You can have one active report at a time. To send a new one before it closes, open it and tap **Withdraw Report**.
+
+Without an account, email the developer with:
 
 1. **Steps to reproduce**: what you did, step by step, before the problem happened. This is the most important part.
 2. **Phone model** and **Android version** (required).

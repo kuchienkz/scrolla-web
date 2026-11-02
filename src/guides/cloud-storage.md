@@ -169,6 +169,14 @@ You can also set these in **Settings** > **Cloud & Storage**, under **Transfers*
 - **When Wi-Fi Is Lost** (only with **Wi-Fi Only**): **Pause** stops running downloads and resumes them later from where they stopped. **Continue** lets them finish on mobile data.
 - **Unrestrict network for Dynamic Playlist Batches** (only with **Wi-Fi Only**): [Dynamic Playlist](dynamic-playlists.md) batches download on any connection, including mobile data.
 
+### Running transfers
+
+Open the profile panel, then tap **Running Transfers**, or tap the transfers icon on the **Transfer & Migration History** page. The page lists waiting and running transfers.
+
+- Tap **Cancel Transfer** (the ✕ on a row) to cancel one. A waiting transfer is removed. A running download stops. A running upload finishes its file first.
+- **Cancel All Queued** removes every waiting transfer.
+- Tap a row to see its details.
+
 ### Mobile data
 
 If transfers are set to **Wi-Fi Only** and you start a transfer on mobile data, the app asks **Cellular Data Detected**. Tap **Continue on Cellular** to use mobile data this time, or **Cancel**.
@@ -177,7 +185,7 @@ If transfers are set to **Wi-Fi Only** and you start a transfer on mobile data, 
 
 If the app closed during a transfer, it asks **Unfinished Cloud Transfers** the next time you open it:
 
-- **Resume Transfers**: continue in the background.
+- **Resume Transfers**: continue in the background. A progress bar shows how many are done. If some fail, the app tells you how many, with **Details**.
 - **Discard All**: cancel them.
 
 ## Storage used by the cloud cache

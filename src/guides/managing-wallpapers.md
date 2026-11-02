@@ -40,6 +40,13 @@ Each wallpaper can show a badge:
 - **Tap** a wallpaper to see it full screen, with its details and tags. Tap **Copy Tags** to copy its tags, then paste them into another wallpaper with **Copy from...** > **Clipboard** in the [wallpaper editor](importing-wallpapers.md#the-wallpaper-editor).
 - **Long-press** a wallpaper to see its details and the actions you can do with it.
 
+In the full-screen viewer:
+
+- **Swipe**, or tap the arrows, to go to the next or previous wallpaper. When you close the viewer, the list shows the last wallpaper you looked at in its top row.
+- **Double tap** to zoom in where you tapped. Double tap again to zoom out. Tap once to show or hide the buttons.
+- **Videos** and **animated GIF or WebP** wallpapers have a play button and a slider to move through them.
+- Labels at the top right: **GIF**, **WebP** or **Video**, and **AI** when a tag says the wallpaper is AI-generated (see **AI-Generated Tags** in the [Settings Reference](settings.md#appearance-content)). Tap a label to see the tags it comes from.
+
 ## Search and filter
 
 - **Search**: type a tag or a file name. To find one wallpaper by its number, type `#id:` and the number, for example `#id:123`.

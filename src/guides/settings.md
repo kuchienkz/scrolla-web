@@ -120,7 +120,8 @@ Only for signed-in users. **Maximize Compatibility (experimental)** changes how 
 
 ### Content
 
-**NSFW Content Visibility**: how wallpapers with the **NSFW** tag show in the app: **Hidden**, **Blur** or **Show**. See [Content Safety Tag](../legals/content-safety-tag.md).
+- **NSFW Content Visibility**: how wallpapers with the **NSFW** tag show in the app: **Hidden**, **Blur** or **Show**. See [Content Safety Tag](../legals/content-safety-tag.md).
+- **AI-Generated Tags**: the tags that mark a picture as AI-generated. A tag also matches longer tags with the same words: `ai_generated` matches `ai_generated_art`. Upper and lower case, `_` and `-` do not matter. Add tags (your tags are suggested), remove them, or tap **Reset to Default**. The viewer's **AI** label and **Hide AI-generated Content** of [Custom Repositories](custom-repositories.md) use them.
 
 ## Privacy & Permissions {#privacy-permissions}
 
@@ -165,4 +166,4 @@ The **App Version** is at the bottom of the Preferences page. Include it when yo
 
 ## Account
 
-To sign in, tap **Sign in with Google** at the top of the Preferences page. When you are signed in, tap your picture to open your **User Profile**, with **View Purchase History** and **Sign out**.
+To sign in, tap **Sign in with Google** at the top of the Preferences page. When you are signed in, tap your picture to open your **User Profile**, with **View Purchase History**, **Bug Reports** and **Sign out**.

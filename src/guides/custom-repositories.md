@@ -35,6 +35,16 @@ Your key is stored encrypted on this device only. It is never part of a backup.
 The Custom Cloud Wallpaper Repository page with the URL, login fields and the Test Connection button.
 :::
 
+### Search & Content Filter {#search-content-filter}
+
+| Setting | What it does |
+|---|---|
+| **Tags sent per search** | How many search terms go to the website in one request (default **2**, or **No limit**). Many websites refuse more. The other tags filter the results on your device. |
+| **Excluded tags** | Pictures with one of these tags are hidden. They are sent as `-tag` while the request has room, else filtered on your device. Suggestions come from the website. |
+| **Hide AI-generated Content** | Hides pictures with an AI-generated tag. The list of these tags is in **Settings** > **Appearance & Content** > **AI-Generated Tags**. |
+
+Filtering on your device works on each page of results, so a rare tag can leave pages empty. The app then loads the next pages, up to 5 at a time, then shows **Load More**.
+
 ### Advanced
 
 | Setting | What it does |
@@ -49,8 +59,10 @@ If the app says that no supported API answered, check the URL, or select the **A
 
 1. Go to **Resources** > **WALLPAPERS**.
 2. At the top, switch the source to **Custom**.
-3. Select the repository in the list at the top.
-4. Type tags in the search bar, with spaces between them. Put `-` before a tag to exclude it, for example `sunset -city`.
+3. Tap the repository icon (the website's icon) left of the search bar to choose a repository.
+4. Type tags in the search bar, with spaces between them. Put `-` before a tag to exclude it, for example `sunset -city`. Put `~` before tags to accept any of them, for example `~sea ~lake`.
+
+Only the first tags go to the website (**Tags sent per search**, see [above](#search-content-filter)): terms with `:` (such as `order:score`) first, then plain tags in the order you typed them, then `~` tags (all of them or none), then `-` tags. The other tags filter the results on your device.
 
 Filters:
 
@@ -66,8 +78,11 @@ Some results are hidden by a content filter. Pictures that are not rated for all
 
 ## Look at a picture
 
-Tap a picture to open it.
+Tap a picture to open it. Swipe, or tap the arrows, to go to the next or previous picture. Near the end of the loaded pictures, the next page loads without leaving the viewer. When you close the viewer, the grid shows the last picture you looked at in its top row.
 
+- **Double tap** to zoom in where you tapped. Double tap again to zoom out.
+- **GIF**, **WebP**, **Video** and **AI** labels at the top right tell what the picture is. Tap a label to see the tags it comes from.
+- Videos and animated pictures have a play button and a slider to move through them.
 - **Screen Crop Preview** shows which part of the picture fits your screen.
 - Its tags are listed by category. Tap a tag to search for it.
 - **Open Source** opens the picture's page on the website.
@@ -88,7 +103,7 @@ When you add wallpapers to a playlist, the **Custom** source is also there. Sele
 
 ## Edit or remove a repository
 
-Open **Cloud Storage Manager** and tap the repository, or tap **Edit Repository** in the browser.
+Open **Cloud Storage Manager** and tap the repository, or tap **Edit Repository** (the settings icon right of the search bar) in the browser. New repositories are added only in **Cloud Storage Manager**.
 
 - **Forget Saved Key** removes your stored key.
 - **Remove Repository** removes it from the app. Wallpapers that you downloaded stay in your library.
