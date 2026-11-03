@@ -20,14 +20,17 @@ Scrolla is free. **Scrolla Pro** is an optional subscription for people who want
 |---|---|---|---|
 | **Playlists** | 2 | 5 | Unlimited |
 | **Tasks** | 2 | 5 | Unlimited |
+| **Dynamic playlists** | 1 | 1 | Unlimited |
+| **Cloud Drive repositories** (Google Drive) | 1 | 1 | Unlimited |
+| **Custom API repositories** | 1 | 1 | Unlimited |
 | **Ads** | Yes | Yes | No ads |
 
-- Dynamic playlists count as playlists. The count covers all profiles (Home and Lock Screen).
-- Signing in is free and already gives you more slots. Open your user profile and sign in with Google.
+- A dynamic playlist also counts as a playlist. The count covers all profiles (Home and Lock Screen).
+- Signing in is free and already gives you more playlist and task slots. Open your user profile and sign in with Google.
 
 ## During the beta {#beta}
 
-While Scrolla is in beta, everyone gets **unlimited playlists and tasks** for free. Ads stay on. The Pro page and your user profile show **Free during the beta**.
+While Scrolla is in beta, everyone gets **unlimited playlists, tasks and repositories** for free. Ads stay on. The Pro page and your user profile show **Free during the beta**.
 
 You can still subscribe to Pro during the beta. Pro then removes the ads. When the stable version comes, the free beta slots end, and your Pro stays.
 
@@ -35,7 +38,7 @@ You can still subscribe to Pro during the beta. Pro then removes the ads. When t
 
 From time to time, Scrolla gives free Pro for a limited time: to everyone (a **promotion**), or to one account (a **gift**).
 
-- Free Pro gives **unlimited playlists and tasks**. Ads stay on.
+- Free Pro gives **unlimited playlists, tasks and repositories**. Ads stay on.
 - The Pro page shows the offer and when it ends. Your user profile shows **Free Pro promotion** or **Pro gift**.
 - The offer starts and ends on its own. You do not need to update the app.
 - When the offer ends, items above your free limit are [locked](#locked-items). Nothing is deleted.
@@ -83,13 +86,15 @@ If you close the ad before the end, there is no reward.
 
 ## Locked items
 
-When you have more playlists or tasks than your plan allows, the newest ones above the limit are **locked**. This happens when you sign out, when Pro ends, or when you restore a backup with many items.
+When you have more playlists, tasks or repositories than your plan allows, the newest ones above the limit are **locked**. This happens when you sign out, when Pro ends, or when you restore a backup with many items.
 
 A locked item shows a **Locked** badge. Nothing is deleted:
 
 - you can **view**, **export** and **delete** a locked item,
 - you cannot edit, activate, duplicate or run it,
-- the wallpaper never plays a locked playlist, and a locked task never runs.
+- the wallpaper never plays a locked playlist, and a locked task never runs,
+- a locked Cloud Drive repository does not upload, download, sync or index, and you can still remove it or refresh its login. Wallpapers you already downloaded from it stay on your device,
+- a locked Custom API repository does not show in the browser, and you can still remove it.
 
 Your oldest items stay usable, up to the limit. To unlock items, sign in, get Pro, or delete other items. They unlock on their own, with their settings and their on/off state as you left them.
 
