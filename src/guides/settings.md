@@ -55,7 +55,7 @@ On Android 10 and newer, the app can only read the Wi-Fi name when **Location (G
 
 ### Audio Visualizer
 
-- **Best Sampling Rate**: the visualizer reads the music about 47 times per second, so short beats are not missed. Off: 20 times per second, which uses slightly less battery.
+- **Best Sampling Rate**: each reading is a short slice of the sound, about 21 ms. On: the readings follow each other without gaps, about 47 per second, so every part of the music is read and short beats are not missed. Off: 20 readings per second. They cover less than half of the sound, so short drum hits can be missed. Off uses slightly less battery. This setting applies only with [microphone access](scenes.md#audio-visualizer). The sound of video wallpapers is always read in full.
 - **Calibrate Audio Sync**: lines the bars up with the sound of the current output. It shows the output and its saved delay. See [Calibrate audio sync](scenes.md#calibrate-audio-sync).
 
 ### Rendering
