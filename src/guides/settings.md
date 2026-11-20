@@ -142,7 +142,6 @@ Telemetry means crash and error reports. They help the developer find and fix bu
 | Device model, Android version, app version | ✓ | ✓ | – |
 | Recent app events before an error (screen changes, wallpaper engine log lines) | ✓ | ✓ | – |
 | Taps before an error | ✓ | – | – |
-| IP address | ✓ | – | – |
 | Screenshot and screen layout at the error | ✓ | – | – |
 | Screen replay (some sessions, and sessions with an error) | ✓ | – | – |
 | Performance data, app logs, session counts | ✓ | – | – |

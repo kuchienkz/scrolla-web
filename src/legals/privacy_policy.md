@@ -57,12 +57,11 @@ When the App crashes or hits an error, it can send a report to **Sentry**, a ser
 | Device model, Android version, App version | Yes | Yes | No |
 | Recent App events before an error (screen names, wallpaper engine log lines) | Yes | Yes | No |
 | The buttons you tapped before an error | Yes | No | No |
-| Your IP address | Yes | No | No |
 | A screenshot and a description of the App screen at the error | Yes | No | No |
 | A replay of recent App screens (some sessions, and sessions with an error) | Yes | No | No |
 | Performance data, App logs, session counts | Yes | No | No |
 
-**Default** is on until you change it. With **Off**, the App sends nothing to Sentry. Text and images in replays are masked by default, but a screenshot can show what was on the App screen, which may include your wallpapers. With **Minimal**, the App does not attach your IP address to reports.
+**Default** is on until you change it. With **Off**, the App sends nothing to Sentry. Text and images in replays are masked by default, but a screenshot can show what was on the App screen, which may include your wallpapers.
 
 I use these reports **only** to fix problems and improve stability. They are kept for a limited time and are deleted automatically by Sentry's retention rules. See [Sentry's Privacy Policy](https://sentry.io/privacy/).
 
