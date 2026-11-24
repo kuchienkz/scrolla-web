@@ -32,6 +32,7 @@ Step-by-step tutorials for **Scrolla Wallpaper**. They follow the **3.0 Beta** r
 - [Animations](animations.md): Enter, Loop and Exit animations, and automatic IFTT rules.
 - [Scenes (Text, Clock, Visualizer, Shapes)](scenes.md): put text with live values (time, date, battery), music bars and shapes on your wallpaper; presets and replace groups.
 - [Variables](variables.md): live values in text (time, date, battery, volume, network), their options and time formats.
+- [Avatars (VRM)](avatars.md): a 3D character on your wallpaper, its motions, motion sets that react to touch, shakes and music, and the Try motions page.
 
 ## Screens, automation and controls
 

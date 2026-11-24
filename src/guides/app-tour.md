@@ -54,9 +54,10 @@ The **Resource Manager** has:
 
 - **WALLPAPERS** card: opens your full wallpaper library.
 - **TAGS** card: opens the list of all tags.
+- **Avatars** card: your VRM models, motions and motion sets. See [Avatars](avatars.md).
 - **Latest Wallpapers**: tap to show or hide your most recent imports.
 - **Dataset button** (top-right): manages tag datasets.
-- **Menu button** (bottom-right): **Add Wallpapers** and **Add Wallpapers + Metadata**.
+- **Menu button** (bottom-right): add wallpapers (with or without metadata), or create a wallpaper of one color, also with an avatar (**Create VRM wallpaper**).
 
 More: [Importing Wallpapers](importing-wallpapers.md), [Managing Your Wallpaper Library](managing-wallpapers.md), [Tags & Datasets](tags-and-datasets.md).
 

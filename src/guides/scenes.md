@@ -15,7 +15,7 @@ tag:
 
 # Scenes (Text, Clock, Visualizer, Shapes)
 
-A **scene** puts extra things on top of your live wallpaper: **text** (a clock, the date, your battery level or any words), an **audio visualizer** that moves with your music, and **shapes**. These things are called **components**. Components sit in **layers**, in front of or behind the wallpaper.
+A **scene** puts extra things on top of your live wallpaper: **text** (a clock, the date, your battery level or any words), an **audio visualizer** that moves with your music, **shapes**, and 3D [avatars](avatars.md). These things are called **components**. Components sit in **layers**, in front of or behind the wallpaper.
 
 There are two kinds of scene:
 
@@ -49,7 +49,7 @@ The dock is the button bar at the bottom of the editor (on the right side in lan
 | Button | What it does |
 |---|---|
 | **Layers** | Opens the list of layers and components. |
-| **Add** | Adds a **Preset** (for example **Clock**), **Text**, an **Audio visualizer** or a **Shape**. See [Presets](#presets). |
+| **Add** | Adds a **Preset** (for example **Clock**), **Text**, an **Audio visualizer**, a **Shape** or an **Avatar**. See [Presets](#presets) and [Avatars](avatars.md). |
 | **Preview wallpaper** | Picks another library wallpaper to preview the scene with. Profile scenes only. |
 | **Play** / **Pause** | Plays or pauses a video or animated preview wallpaper. |
 | **Show the whole wallpaper** | Zooms out to show the whole wallpaper, with your screen as a box. Wallpaper scenes only. |
@@ -211,6 +211,10 @@ To draw your own shape, open **Free transform** and tap **Edit points**.
 - **Tap a small dot** between two points to add a point.
 - **Long-press a point** to delete it. A shape needs at least 3 points.
 - Tap a point to select it. Then use **Corner** (sharp point), **Curve** (smooth point with two handles), **Mirror handles** and **Delete point**.
+
+## Avatars
+
+An avatar is a 3D VRM character. Its model, camera, light, motions and touch reactions have their own page: [Avatars](avatars.md).
 
 ## Wallpaper scenes
 

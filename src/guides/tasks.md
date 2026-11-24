@@ -111,6 +111,7 @@ Preconditions are checked when a trigger fires. If one is false, the actions do 
 | **Next Wallpaper** | Switches to the next wallpaper in the active playlist. |
 | **Activate Task** | Controls another task: **Execute Task**, **Enable Task** or **Disable Task**. |
 | **Set Image Wallpaper** | Sets a normal (not live) image wallpaper from a file path. |
+| **Play avatar motion** | Every [avatar](avatars.md) on the screen plays the motion you choose, once. |
 
 You can add more than one action. They run in order.
 

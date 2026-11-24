@@ -33,6 +33,7 @@ The Backup & Restore page with the Cloud and Offline (ZIP) sections.
 - Your playlists (with their folders and in-playlist changes), tasks, profiles and settings.
 - Your [scenes](scenes.md), custom [themes](themes.md) and [Custom Repositories](custom-repositories.md) (without their keys).
 - **Local wallpapers**: the files, tags, settings and wallpaper scene.
+- Your [avatar](avatars.md) models and motions that you imported, your motion sets, and the settings of the **Try motions** page.
 - **Subscribed wallpapers**: only a link to the cloud file. When you restore, they download again from their drive.
 
 Not in a backup:
