@@ -52,7 +52,7 @@ Select the avatar and tap **Style**. Under **Model**, tap **Choose a model**.
 |---|---|
 | **Model** | The `.vrm` model. **Not on this phone** means the file is missing: import it again. |
 | **Motion set** | The motions the avatar plays and when. See [Motion sets](#motion-sets). |
-| **Camera** | **Full body**, **Upper body** or **Face**, then **Turn**, **Tilt**, **Zoom** and **Field of view**. |
+| **Camera** | **Full body**, **Upper body** or **Face**, then **Turn**, **Tilt**, **Zoom** and **Field of view**. **Keep inside the box** cuts off any part of the model that reaches past its box. It's off by default, so a turn, a zoom or a wide motion can go past the box. |
 | **Light** | **Light from the side**, **Light from above**, **Brightness**, **Shadow lightness**, the light color, and **Outline**. |
 | **Hair and clothes** | **Hair and clothes move** (the model's own physics; turn it off to save battery), **Hair and clothes speed**, and **Follow phone tilt**. |
 | **Touch and music** | **Looks at**: **Straight ahead**, **You** or **Your touch**. **Drag to turn**: drag across the avatar to see it from another side. **Move to music**: the mouth and head move with music playing on the phone. |
@@ -135,5 +135,6 @@ A [task](tasks.md#actions) can make the avatar move: add the action **Play avata
 
 - **This file isn't a VRM model or VRMA motion**: the file has another format. Check that it ends in `.vrm` or `.vrma`.
 - **This file uses compression Scrolla can't read**: export it again without Draco or meshopt compression.
+- **The avatar is cut off at an edge**: turn off **Keep inside the box** under **Camera**, or make the avatar's box bigger.
 - **The avatar stands still**: **Pause when idle** may be on. Touch the screen to wake it.
 - **A touch reaction doesn't play**: check **Where** and **How** of the rule, and its **Wait before it plays again**. A touch must land on the avatar.
