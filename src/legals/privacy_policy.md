@@ -11,7 +11,7 @@ tag:
 
 # Privacy Policy
 
-**Last updated: October 29, 2026**
+**Last updated: November 25, 2026**
 
 This Privacy Policy explains what happens to your information when you use the **Scrolla Wallpaper** app for Android (the "App"). Please read it together with the [Terms and Conditions](terms_conditions.md).
 
@@ -83,7 +83,7 @@ You can sign in with your Google Account. Signing in is **optional**. If you sig
 - **Google Sign-In** and **Firebase Authentication** confirm who you are.
 - **Cloud Firestore** (a Firebase database that I run) stores a small user profile: your account ID, email address, display name and profile photo link. If you buy Scrolla Pro, it also stores your Pro status and your purchase history (see below).
 
-I use this profile only to run your account, apply your purchases, and answer support requests. If you sign out, the profile stays until you ask me to delete it (see [Your choices and rights](#your-choices-and-rights)).
+I use this profile only to run your account, apply your purchases, and answer support requests. If you sign out, the profile stays until you delete your account (see [Delete your account and data](delete-account.md)).
 
 ### 4. Purchases (Google Play and Scrolla Pro) {#purchases}
 
@@ -146,7 +146,7 @@ These providers may process information in countries other than yours, including
 
 - Information on your device: until you delete it or uninstall the App.
 - Crash and error reports: for a limited time, then deleted automatically by Sentry. Reports sent before you chose **Off** stay until then; to have them deleted sooner, contact me.
-- Account profile, Pro status and purchase records: while your account exists. When you ask me to delete your account, I delete it within 30 days, and with it your profile, your Pro status, your purchase history and its purchase links. Deleting the account does not cancel a subscription: cancel it in Google Play first. Google Play keeps its own order records under Google's policies and as tax and accounting law requires.
+- Account profile, Pro status, purchase records, backup key, and your bug reports, feature suggestions and translation reports: while your account exists. When you delete your account in the App, my server deletes them at once, usually within a few minutes. When you ask me by email, I delete them within 30 days. See [Delete your account and data](delete-account.md) for the full list. Deleting the account does not cancel a subscription: cancel it in Google Play first. Google Play keeps its own order records under Google's policies and as tax and accounting law requires.
 - Advertising data: as described in Google's policies.
 
 ## Your choices and rights
@@ -156,7 +156,8 @@ These providers may process information in countries other than yours, including
 - **Control ads.** Turn on **Non-personalized Ads**, change your consent in **Ad Privacy Options**, or reset your advertising ID in Android settings.
 - **Control permissions** in Android settings at any time.
 - **Remove Google Drive access** in your Google Account settings.
-- **Access, correct or delete your data.** Email **wahyupamengas.developer@gmail.com** from the address of your account, with the subject "Data request". I will answer within 30 days. To delete your account, write "Delete my account".
+- **Delete your account and its data** in the App: **Settings** > your profile picture > **Delete account**. Without the App, email me (see [Delete your account and data](delete-account.md)).
+- **Access or correct your data.** Email **wahyupamengas.developer@gmail.com** from the address of your account, with the subject "Data request". I will answer within 30 days.
 - Depending on where you live (for example under the GDPR, the UK GDPR, the UU PDP, or the California Consumer Privacy Act), you may also have the right to object to or restrict processing, to data portability, and to complain to your local data protection authority.
 
 ## Children
