@@ -2,12 +2,13 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar } from "./navbar/index.js";
 import { enSidebar } from "./sidebar/index.js";
 
-export default hopeTheme({
-  hostname: "https://kuchienkz.github.io",
+// hostname: origin for the sitemap and SEO tags. siteUrl: hostname plus base.
+export const makeTheme = (hostname: string, siteUrl: string) => hopeTheme({
+  hostname,
 
   author: {
     name: "Kuchienkz",
-    url: "https://kuchienkz.github.io/scrolla-web",
+    url: siteUrl,
   },
 
   logo: "/logo.png",

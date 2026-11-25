@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "public": "src/.vuepress/dist",
+    "predeploy": ["npm run docs:build:firebase"],
+    "ignore": ["firebase.json", "**/.*"],
+    "cleanUrls": false,
+    "redirects": [
+      { "source": "/privpol.html", "destination": "/legals/privacy_policy.html", "type": 301 },
+      { "source": "/termcon.html", "destination": "/legals/terms_conditions.html", "type": 301 }
+    ]
+  }
+}

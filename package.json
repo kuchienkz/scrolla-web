@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "docs:build": "vuepress-vite build src",
+    "docs:build:firebase": "vuepress-vite build src --config src/.vuepress/config.firebase.ts",
     "docs:clean-dev": "vuepress-vite dev src --clean-cache",
     "docs:dev": "vuepress-vite dev src",
     "docs:update-package": "npx vp-update"

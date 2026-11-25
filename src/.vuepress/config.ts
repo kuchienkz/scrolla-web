@@ -1,32 +1,7 @@
-import { viteBundler } from "@vuepress/bundler-vite";
-import { defineUserConfig } from "vuepress";
-import theme from "./theme.js";
+import { makeConfig } from "./site.js";
 
-export default defineUserConfig({
+// GitHub Pages build (default). Firebase Hosting uses config.firebase.ts.
+export default makeConfig({
   base: "/scrolla-web/",
-
-  locales: {
-    "/": {
-      lang: "en-US",
-      title: "Scrolla Wallpaper",
-      description:
-        "Guides, news and legal pages for Scrolla Wallpaper, the live wallpaper app that scrolls your pictures instead of cropping them.",
-    },
-  },
-
-  head: [
-    // Matches the Beta banner at the top of the page.
-    ["meta", { name: "theme-color", content: "#ffd60a" }],
-    ["link", { rel: "icon", href: "/scrolla-web/favicon.ico" }],
-    ["link", { rel: "apple-touch-icon", href: "/scrolla-web/logo.png" }],
-  ],
-
-  bundler: viteBundler({
-    viteOptions: {
-      // The search plugin's client imports CSS, so SSR must bundle it.
-      ssr: { noExternal: ["@vuepress/search-helper"] },
-    },
-  }),
-
-  theme,
+  hostname: "https://kuchienkz.github.io",
 });
