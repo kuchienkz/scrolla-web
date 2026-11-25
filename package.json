@@ -18,5 +18,8 @@
     "vue": "^3.5.46",
     "vuepress": "2.0.0-rc.32",
     "vuepress-theme-hope": "2.0.0-rc.111"
+  },
+  "overrides": {
+    "@vuepress/plugin-active-header-links": "2.0.0-rc.141"
   }
 }
